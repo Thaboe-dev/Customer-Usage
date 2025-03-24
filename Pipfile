@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+llmwhisperer-client = "*"
+python-dotenv = "*"
+langchain-openai = "*"
+langchain-pinecone = "*"
+langgraph = "*"
+langchain-core = "*"
+langchain-community = "*"
+tiktoken = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
