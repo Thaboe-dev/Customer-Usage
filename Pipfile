@@ -12,6 +12,7 @@ langgraph = "*"
 langchain-core = "*"
 langchain-community = "*"
 tiktoken = "*"
+langchain-groq = "*"
 
 [dev-packages]
 

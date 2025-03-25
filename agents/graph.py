@@ -170,7 +170,7 @@ app = workflow.compile(checkpointer=memory)
 
 if __name__ == "__main__":
     config = {"configurable": {"thread_id": "abc345"}}
-    question = "What is the withdrawal fee charged by CBZ for an individual account?"
+    question = "EcoBank POS Purchase fee in USD"
     inputs = {"messages": [], "question": question}
     for output in app.stream(inputs, config):
         for key, value in output.items():
