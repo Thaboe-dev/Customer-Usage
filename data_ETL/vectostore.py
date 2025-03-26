@@ -26,9 +26,7 @@ def ingest_docs(embeddings: Any):
 
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=6000, 
-        chunk_overlap=0,
-        separators=["\n\n", "\n", "  ", " ", ""],
-        keep_separator=True
+        chunk_overlap=600,
     )
     documents = text_splitter.split_documents(loaded_docs)
 
