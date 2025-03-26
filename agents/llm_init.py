@@ -7,6 +7,6 @@ from langchain_groq import ChatGroq
 # )
 
 llm = ChatGroq(
-    model_name = "deepseek-r1-distill-llama-70b",
+    model_name = "deepseek-r1-distill-qwen-32b",
     temperature=0
 )

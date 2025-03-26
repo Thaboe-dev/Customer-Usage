@@ -170,7 +170,7 @@ app = workflow.compile(checkpointer=memory)
 
 if __name__ == "__main__":
     config = {"configurable": {"thread_id": "abc345"}}
-    question = "EcoBank POS Purchase fee in USD"
+    question = "If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank"
     inputs = {"messages": [], "question": question}
     for output in app.stream(inputs, config):
         for key, value in output.items():
