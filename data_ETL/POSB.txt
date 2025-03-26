@@ -1,0 +1,650 @@
+[
+  {
+    "metadata": {
+      "bank_name": "POSB",
+      "document_title": "POSB BUSINESS CONDITIONS-ZWG & USD",
+      "effective_date": "OCTOBER 2024"
+    },
+    "sections": [
+      {
+        "title": "Account Type Charges",
+        "description": "Details on Initial Deposit, Maintenance Fees, Minimum Balance, and Withdrawals for various account types.",
+        "columns": [
+          "Account Type",
+          "Initial Deposit ZWG",
+          "Initial Deposit USD",
+          "Maintenance Fees ZWG",
+          "Maintenance Fees USD",
+          "Minimum Balance ZWG",
+          "Minimum Balance USD",
+          "Withdrawals (ATM) ZWG",
+          "Withdrawals (OTC) ZWG",
+          "Withdrawals (ATM) USD",
+          "Withdrawals (OTC) USD"
+        ],
+        "items": [
+          {
+            "Account Type": "Individual Account",
+            "Initial Deposit ZWG": "ZWG 125",
+            "Initial Deposit USD": "US$ 5",
+            "Maintenance Fees ZWG": "ZWG113",
+            "Maintenance Fees USD": "US$4.50",
+            "Minimum Balance ZWG": "ZWG 250",
+            "Minimum Balance USD": "US$10",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 119",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 125",
+            "Withdrawals (ATM) USD": "3% min US$4.75",
+            "Withdrawals (OTC) USD": "3% min US$5"
+          },
+          {
+            "Account Type": "Individual Esteem",
+            "Initial Deposit ZWG": "ZWG 250",
+            "Initial Deposit USD": "US$ 10",
+            "Maintenance Fees ZWG": "ZWG 300",
+            "Maintenance Fees USD": "US$12",
+            "Minimum Balance ZWG": "ZWG 375",
+            "Minimum Balance USD": "US$15",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 150",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 156",
+            "Withdrawals (ATM) USD": "3% min US$6",
+            "Withdrawals (OTC) USD": "3% min US$6.25"
+          },
+          {
+            "Account Type": "Individual Student Account",
+            "Initial Deposit ZWG": "ZWG 75",
+            "Initial Deposit USD": "US$3",
+            "Maintenance Fees ZWG": "NIL",
+            "Maintenance Fees USD": "Nil",
+            "Minimum Balance ZWG": "ZWG 25",
+            "Minimum Balance USD": "US$1",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 25",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 37.50",
+            "Withdrawals (ATM) USD": "3% min US$1",
+            "Withdrawals (OTC) USD": "3% min US$1.50"
+          },
+          {
+            "Account Type": "Individual Farmer's Account",
+            "Initial Deposit ZWG": "Nil",
+            "Initial Deposit USD": "Nil",
+            "Maintenance Fees ZWG": "ZWG 87.50",
+            "Maintenance Fees USD": "US$3.50",
+            "Minimum Balance ZWG": "ZWG 125",
+            "Minimum Balance USD": "US$5",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 119",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 125",
+            "Withdrawals (ATM) USD": "3% min US$4.75",
+            "Withdrawals (OTC) USD": "3% min US$5"
+          },
+          {
+            "Account Type": "Informal Traders Account",
+            "Initial Deposit ZWG": "ZWG 125",
+            "Initial Deposit USD": "US$ 5",
+            "Maintenance Fees ZWG": "ZWG 75",
+            "Maintenance Fees USD": "US$3",
+            "Minimum Balance ZWG": "ZWG 250",
+            "Minimum Balance USD": "US$10",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 119",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 125",
+            "Withdrawals (ATM) USD": "3% min US$4.75",
+            "Withdrawals (OTC) USD": "3% min US$5"
+          },
+          {
+            "Account Type": "Pensioners Account",
+            "Initial Deposit ZWG": "ZWG 125",
+            "Initial Deposit USD": "US$ 5",
+            "Maintenance Fees ZWG": "ZWG 37.50",
+            "Maintenance Fees USD": "US$1.50",
+            "Minimum Balance ZWG": "Nil",
+            "Minimum Balance USD": "Nil",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 119",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 125",
+            "Withdrawals (ATM) USD": "3% min US$4.75",
+            "Withdrawals (OTC) USD": "3% min US$5"
+          },
+          {
+            "Account Type": "Senior Citizens Account",
+            "Initial Deposit ZWG": "ZWG 75",
+            "Initial Deposit USD": "US$3",
+            "Maintenance Fees ZWG": "NIL",
+            "Maintenance Fees USD": "Nil",
+            "Minimum Balance ZWG": "Nil",
+            "Minimum Balance USD": "Nil",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 25",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 37.50",
+            "Withdrawals (ATM) USD": "3% min US$1",
+            "Withdrawals (OTC) USD": "3% min US$1.50"
+          },
+          {
+            "Account Type": "Club Account",
+            "Initial Deposit ZWG": "ZWG 500",
+            "Initial Deposit USD": "US$ 20",
+            "Maintenance Fees ZWG": "ZWG 125",
+            "Maintenance Fees USD": "US$5",
+            "Minimum Balance ZWG": "ZWG 250",
+            "Minimum Balance USD": "US$10",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 150",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 156",
+            "Withdrawals (ATM) USD": "3% min US$6",
+            "Withdrawals (OTC) USD": "3% min US$6.25"
+          },
+          {
+            "Account Type": "SME Account",
+            "Initial Deposit ZWG": "ZWG 500",
+            "Initial Deposit USD": "US$ 20",
+            "Maintenance Fees ZWG": "ZWG 375",
+            "Maintenance Fees USD": "US$15",
+            "Minimum Balance ZWG": "ZWG 500",
+            "Minimum Balance USD": "US$20",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 150",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 156",
+            "Withdrawals (ATM) USD": "3% min US$6",
+            "Withdrawals (OTC) USD": "3% min US$6.25"
+          },
+          {
+            "Account Type": "Agribusiness Account",
+            "Initial Deposit ZWG": "ZWG 250",
+            "Initial Deposit USD": "US$ 10",
+            "Maintenance Fees ZWG": "ZWG 300",
+            "Maintenance Fees USD": "US$12",
+            "Minimum Balance ZWG": "ZWG 375",
+            "Minimum Balance USD": "US$15",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 150",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 156",
+            "Withdrawals (ATM) USD": "3% min US$6",
+            "Withdrawals (OTC) USD": "3% min US$6.25"
+          },
+          {
+            "Account Type": "Church Account",
+            "Initial Deposit ZWG": "ZWG 500",
+            "Initial Deposit USD": "US$ 20",
+            "Maintenance Fees ZWG": "ZWG 125",
+            "Maintenance Fees USD": "US$5",
+            "Minimum Balance ZWG": "ZWG 500",
+            "Minimum Balance USD": "US$20",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 150",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 156",
+            "Withdrawals (ATM) USD": "3% min US$6",
+            "Withdrawals (OTC) USD": "3% min US$6.25"
+          },
+          {
+            "Account Type": "School Account",
+            "Initial Deposit ZWG": "ZWG 500",
+            "Initial Deposit USD": "US$ 20",
+            "Maintenance Fees ZWG": "NIL",
+            "Maintenance Fees USD": "Nil",
+            "Minimum Balance ZWG": "Nil",
+            "Minimum Balance USD": "Nil",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 150",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 156",
+            "Withdrawals (ATM) USD": "3% min US$6",
+            "Withdrawals (OTC) USD": "3% min US$6.25"
+          },
+          {
+            "Account Type": "Corporate Account",
+            "Initial Deposit ZWG": "ZWG 500",
+            "Initial Deposit USD": "US$ 20",
+            "Maintenance Fees ZWG": "ZWG 625",
+            "Maintenance Fees USD": "US$25",
+            "Minimum Balance ZWG": "ZWG 750",
+            "Minimum Balance USD": "US$30",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 150",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 156",
+            "Withdrawals (ATM) USD": "3% min US$6",
+            "Withdrawals (OTC) USD": "3% min US$6.25"
+          },
+          {
+            "Account Type": "NSSA Account (Aged 60 and above)",
+            "Initial Deposit ZWG": "Nil",
+            "Initial Deposit USD": "Nil",
+            "Maintenance Fees ZWG": "NIL",
+            "Maintenance Fees USD": "Nil",
+            "Minimum Balance ZWG": "Nil",
+            "Minimum Balance USD": "Nil",
+            "Withdrawals (ATM) ZWG": "Nil",
+            "Withdrawals (OTC) ZWG": "Nil",
+            "Withdrawals (ATM) USD": "US$1",
+            "Withdrawals (OTC) USD": "US$1"
+          },
+          {
+            "Account Type": "NSSA Account aged below 60 years",
+            "Initial Deposit ZWG": "Nil",
+            "Initial Deposit USD": "Nil",
+            "Maintenance Fees ZWG": "NIL",
+            "Maintenance Fees USD": "Nil",
+            "Minimum Balance ZWG": "Nil",
+            "Minimum Balance USD": "Nil",
+            "Withdrawals (ATM) ZWG": "Nil",
+            "Withdrawals (OTC) ZWG": "Nil",
+            "Withdrawals (ATM) USD": "US$1",
+            "Withdrawals (OTC) USD": "US$1"
+          },
+          {
+            "Account Type": "USD Low-cost Formal Account",
+            "Initial Deposit ZWG": "ZWG 75",
+            "Initial Deposit USD": "US$3",
+            "Maintenance Fees ZWG": "ZWG 25",
+            "Maintenance Fees USD": "US$1",
+            "Minimum Balance ZWG": "ZWG 25",
+            "Minimum Balance USD": "US$1",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 31.25",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 47.50",
+            "Withdrawals (ATM) USD": "3% min US$1.25",
+            "Withdrawals (OTC) USD": "3% min US$1.90"
+          },
+          {
+            "Account Type": "KYC Lite Informal Account",
+            "Initial Deposit ZWG": "ZWG 75",
+            "Initial Deposit USD": "US$3",
+            "Maintenance Fees ZWG": "NIL",
+            "Maintenance Fees USD": "Nil",
+            "Minimum Balance ZWG": "ZWG 25",
+            "Minimum Balance USD": "US$1",
+            "Withdrawals (ATM) ZWG": "3% min ZWG 31.25",
+            "Withdrawals (OTC) ZWG": "3% min ZWG 47.50",
+            "Withdrawals (ATM) USD": "3% min US$1.25",
+            "Withdrawals (OTC) USD": "3% min US$1.90"
+          },
+          {
+            "Account Type": "MIPF Pensions",
+            "Initial Deposit ZWG": "Nil",
+            "Initial Deposit USD": "Nil",
+            "Maintenance Fees ZWG": "Nil",
+            "Maintenance Fees USD": "Nil",
+            "Minimum Balance ZWG": "Nil",
+            "Minimum Balance USD": "Nil",
+            "Withdrawals (ATM) ZWG": "1.5% min ZWG 37.50 max ZWG 75",
+            "Withdrawals (OTC) ZWG": "1.5% min ZWG 37.50 max ZWG 75",
+            "Withdrawals (ATM) USD": "1.5% min US$1.50, max US$3",
+            "Withdrawals (OTC) USD": "1.5% min US$1.50, max US$3"
+          }
+        ]
+      },
+      {
+        "title": "Other Charges",
+        "items": [
+          {
+            "Transaction": "Card services",
+            "ZWG": "ZWG 125 initial, ZWG 175 replacement",
+            "USD": "US$5 initial, US$7 replacement"
+          },
+          {
+            "Transaction": "Card services Esteem, Agribusiness, SME, Corporates",
+            "ZWG": "ZWG 250 initial, ZWG 350 replacement",
+            "USD": "US$10 initial, US$14 replacement"
+          },
+          {
+            "Transaction": "Card services- initial and replacement (NSSA, Pensions, Social welfare, instant card & Senior citizens)",
+            "ZWG": "ZWG 75 initial, ZWG 100 replacement",
+            "USD": "US$3 initial, US$4 replacement"
+          },
+          {
+            "Transaction": "Card Fees- Initial Students, KYC Lite Informal Account",
+            "ZWG": "Nil. (card fees covered in Initial deposit of US$3)",
+            "USD": null
+          },
+          {
+            "Transaction": "Card Fees- Replacement Students, KYC Lite Informal Account",
+            "ZWG": "ZWG 75",
+            "USD": "US$3"
+          },
+          {
+            "Transaction": "SMS Alerts (per month)",
+            "ZWG": "ZWG 20 per month",
+            "USD": "US$0.80"
+          },
+          {
+            "Transaction": "RTGS (individual accounts)",
+            "ZWG": "1.5% min ZWG100, max 750",
+            "USD": "1.5% min US4.00, max US$30"
+          },
+          {
+            "Transaction": "RTGS (Esteem accounts, clubs, church, school etc)",
+            "ZWG": "2% min ZWG 137.50, max 750",
+            "USD": "2% min US$5.50, max US$30"
+          },
+          {
+            "Transaction": "RTGS (SMEs and Corporates)",
+            "ZWG": "2% min ZWG 137.50, max 750",
+            "USD": "2% min US$5.50, max US$30"
+          },
+          {
+            "Transaction": "Internal transfer (individuals)",
+            "ZWG": "2% min ZWG 75, max 500",
+            "USD": "1.5% min US$3, max US$20"
+          },
+          {
+            "Transaction": "Internal transfer (Esteem, Agribusiness, Club, Church, School,)",
+            "ZWG": "2% min ZWG 113, max ZWG 750",
+            "USD": "2% min US$4.50, max US$30"
+          },
+          {
+            "Transaction": "Internal transfer (Corporates, SMEs)",
+            "ZWG": "2% min ZWG 113, no max",
+            "USD": "2% min US$4.50, no max"
+          },
+          {
+            "Transaction": "Bank Statement (individual)",
+            "ZWG": "ZWG 25 per page",
+            "USD": "US$1 per page"
+          },
+          {
+            "Transaction": "Bank Statement (Esteem, Agribusiness, School, Church)",
+            "ZWG": "ZWG 50per page",
+            "USD": "US$2 per page"
+          },
+          {
+            "Transaction": "Bank Statement (Corporates and SMEs)",
+            "ZWG": "ZWG 50 per page",
+            "USD": "US$2 per page"
+          },
+          {
+            "Transaction": "SPAS",
+            "ZWG": "ZWG 25",
+            "USD": "US$1"
+          },
+          {
+            "Transaction": "SPAs Esteem",
+            "ZWG": "ZWG 50",
+            "USD": "US$2"
+          },
+          {
+            "Transaction": "Airtime purchase (All Customers)",
+            "ZWG": "ZWG 3.75",
+            "USD": "US$0.15"
+          },
+          {
+            "Transaction": "Salary processing (SME & Corporates) internal",
+            "ZWG": "ZWG 12.50",
+            "USD": "US$0.50"
+          },
+          {
+            "Transaction": "Salary processing (SME $ Corporates) external",
+            "ZWG": "ZWG 25",
+            "USD": "US$1.00"
+          },
+          {
+            "Transaction": "Stop order fees",
+            "ZWG": "ZWG 12.50",
+            "USD": "US$0.50"
+          },
+          {
+            "Transaction": "Debit orders",
+            "ZWG": "ZWG 12.50",
+            "USD": "US$0.50"
+          },
+          {
+            "Transaction": "Debit order penalty fees",
+            "ZWG": "ZWG 12.50",
+            "USD": "US$0.50"
+          },
+          {
+            "Transaction": "RTGS invalid",
+            "ZWG": "ZWG 50",
+            "USD": "US$2"
+          },
+          {
+            "Transaction": "RTGS Recall",
+            "ZWG": "ZWG 50",
+            "USD": "US$2"
+          },
+          {
+            "Transaction": "RTGS Confirmation",
+            "ZWG": "ZWG 50",
+            "USD": "US$2"
+          },
+          {
+            "Transaction": "PIN Re-issue",
+            "ZWG": "ZWG 50",
+            "USD": "US$2"
+          }
+        ]
+      },
+      {
+        "title": "Loans",
+        "items": [
+          {
+            "Loan Type": "Salary based loans",
+            "Lending Rates ZWG": "40-50% p.a",
+            "Lending Rates USD": "18% p.a",
+            "Repayment period": "Up to 36 months",
+            "Loanable amount": "Up to 8 times Gross Monthly Salary",
+            "Special conditions": "Salary should come through for ≥ 3 months"
+          },
+          {
+            "Loan Type": "Corporate loans",
+            "Lending Rates ZWG": "35-50% p.a",
+            "Lending Rates USD": "15-20% p.a",
+            "Repayment period": "Negotiable with Corporate Banking",
+            "Loanable amount": "Depends on Business viability",
+            "Special conditions": "Negotiable with Corporate Banking"
+          },
+          {
+            "Loan Type": "Express Loans",
+            "Lending Rates ZWG": "12% p.m",
+            "Lending Rates USD": "8% p.m",
+            "Repayment period": "Up to 12 months (ZWG), Up to 24 months (US$)",
+            "Loanable amount": "Up to 5 times net salary",
+            "Special conditions": null
+          },
+          {
+            "Loan Type": "Personal Morgage Finance",
+            "Lending Rates ZWG": "40-50% p.a",
+            "Lending Rates USD": "13-15% p.a",
+            "Repayment period": "5 years",
+            "Loanable amount": "Depends on income and ability to repay",
+            "Special conditions": "Salary should come through for ≥ 3 months"
+          },
+          {
+            "Loan Type": "NSSA Loans",
+            "Lending Rates ZWG": "6.5% p.a",
+            "Lending Rates USD": "N/A",
+            "Repayment period": "Up to 24 months",
+            "Loanable amount": "Up to 10 times monthly payout",
+            "Special conditions": "Should receive salary through POSB"
+          },
+          {
+            "Loan Type": "Equity release",
+            "Lending Rates ZWG": "40-50% p.a",
+            "Lending Rates USD": "13-15% p.a",
+            "Repayment period": "5 years",
+            "Loanable amount": "Up to 50% of property value",
+            "Special conditions": "Tittle deeds of an unencumbered urban residential property"
+          },
+          {
+            "Loan Type": "Corporate Mortgage Finance",
+            "Lending Rates ZWG": "35-50% p.a",
+            "Lending Rates USD": "13-15% p.a",
+            "Repayment period": "5 years",
+            "Loanable amount": "Depends on income and ability to repay",
+            "Special conditions": "Salary should come through for ≥ 3 months"
+          },
+          {
+            "Loan Type": "Agribusiness loan",
+            "Lending Rates ZWG": "40-50% p.a",
+            "Lending Rates USD": "15-20% p.a",
+            "Repayment period": "Up to 24 months",
+            "Loanable amount": "Depends on business viability",
+            "Special conditions": "Should have an Agribusiness account"
+          },
+          {
+            "Loan Type": "Export Development Loan",
+            "Lending Rates ZWG": "-",
+            "Lending Rates USD": "11-13% p.a",
+            "Repayment period": "12-24 months",
+            "Loanable amount": "Depends on business viability",
+            "Special conditions": "Should have an account with POSB"
+          },
+          {
+            "Loan Type": "SME loan",
+            "Lending Rates ZWG": "40-50% p.a",
+            "Lending Rates USD": "15-20% p.a",
+            "Repayment period": "Up to 24 months",
+            "Loanable amount": "Depends on business viability",
+            "Special conditions": "Should have an SME Account"
+          },
+          {
+            "Loan Type": "Pensioners loan",
+            "Lending Rates ZWG": "40-50% p.a",
+            "Lending Rates USD": "18% p.a",
+            "Repayment period": "Up to 24 months",
+            "Loanable amount": "Up to 5 times monthly pension",
+            "Special conditions": "Should have a Pensioner Account"
+          },
+          {
+            "Loan Type": "School Development Loan",
+            "Lending Rates ZWG": "40-50% p.a",
+            "Lending Rates USD": "15-20% p.a",
+            "Repayment period": "Up to 2 years for Working Capital, Up to 3 years for Asset Financing",
+            "Loanable amount": "Depends on project viability and ability to repay",
+            "Special conditions": "To open a school Account that receives school fees and should have been operating for at least 1 month"
+          }
+        ]
+      },
+      {
+        "title": "International Banking & Exchange Control (USD)",
+        "items": [
+          {
+            "Category": "Telegraphic Transfer",
+            "Type": "Individuals (account holders)",
+            "Transaction Fee": "0.5% min US$35, max US$200",
+            "Exchange Control": "Exchange Control Application (ordinary): US$10"
+          },
+          {
+            "Category": "Telegraphic Transfer",
+            "Type": "Individuals (non-account holders)",
+            "Transaction Fee": "0.5% min US$50, max US$250",
+            "Exchange Control": "Exchange Control Application (exceptional, etc.): US$20"
+          },
+          {
+            "Category": "Telegraphic Transfer",
+            "Type": "Corporates (account holders)",
+            "Transaction Fee": "0.5% min US$50, max US$350",
+            "Exchange Control": "Exchange Control admin processing fee: US$10"
+          },
+          {
+            "Category": "Telegraphic Transfer",
+            "Type": "Corporates (non-account holders)",
+            "Transaction Fee": "N/A for non-account holders",
+            "Exchange Control": null
+          },
+          {
+            "Category": "Letters or Credit",
+            "Type": "Establishment Fees",
+            "Transaction Fee": "1% min US$550, quarterly",
+            "Exchange Control": null
+          },
+          {
+            "Category": "Letters or Credit",
+            "Type": "Swift Charges",
+            "Transaction Fee": "US$50, per message",
+            "Exchange Control": null
+          },
+          {
+            "Category": "Letters or Credit",
+            "Type": "Discrepancy Fee",
+            "Transaction Fee": "US$150, per LC",
+            "Exchange Control": null
+          }
+        ]
+      },
+      {
+        "title": "POS Purchase Fees",
+        "items": [
+          {
+            "Currency": "ZWG",
+            "On Us": "1.5% min ZWG 31.25",
+            "Off Us": "1.5% min ZWG 37.50",
+            "Purchase with Cashback": "1.5% min ZWG 37.50",
+            "Purchase with Cashback (Off Us)": "1.5% min ZWG 125",
+            "Other bank ATM Cash advance": "5% min ZWG 125, no max",
+            "Insufficient funds": "ZWG 20"
+          },
+          {
+            "Currency": "USD",
+            "On Us": "1.5% min US$1.25",
+            "Off Us": "1.5% min US$1.50",
+            "Purchase with Cashback": "1.5% min US$1.50",
+            "Purchase with Cashback (Off Us)": "1.5% minUS$5",
+            "Other bank ATM Cash advance": "5% minUS$5",
+            "Insufficient funds": "US$0.80"
+          }
+        ]
+      },
+      {
+        "title": "Digital Platforms (Internet and Mobile Banking)",
+        "items": [
+          {
+            "Transaction": "Balance Enquiry",
+            "USD Nostro": "US$0.50",
+            "ZWG": "ZWG 12.50"
+          },
+          {
+            "Transaction": "Mini Statement",
+            "USD Nostro": "US$0.50",
+            "ZWG": "ZWG 12.50"
+          },
+          {
+            "Transaction": "Internal Transfers - Individuals",
+            "USD Nostro": "1% min 2, max US20 individuals",
+            "ZWG": "1% min ZWG 50, max ZWG 500"
+          },
+          {
+            "Transaction": "Internal Transfers - Esteem, Club, Agribusiness, Corporate, SME, Church",
+            "USD Nostro": "2% min US$4, max US40",
+            "ZWG": "2% min ZWG 100, max ZWG 1,000"
+          },
+          {
+            "Transaction": "ZIPIT to Bank",
+            "USD Nostro": "2.5% min US$2",
+            "ZWG": "2.5% min ZWG 50, no max"
+          },
+          {
+            "Transaction": "RTGS - individuals",
+            "USD Nostro": "1.5% min US$3.50, max US$30 individuals",
+            "ZWG": "1.5% min ZWG 87.50, max ZWG 750 individuals"
+          },
+          {
+            "Transaction": "RTGS - Esteem & Agribusiness",
+            "USD Nostro": "2% min US$4.50 max US$30",
+            "ZWG": "2% min ZWG 113, max ZWG 750"
+          },
+          {
+            "Transaction": "RTGS - SME & Corporate",
+            "USD Nostro": "2% min US$4.50 max US$30",
+            "ZWG": "3% min ZWG 113, max ZWG 750"
+          },
+          {
+            "Transaction": "Bill Payments",
+            "USD Nostro": "1% min $2",
+            "ZWG": "1% min ZWG 50"
+          },
+          {
+            "Transaction": "Airtime",
+            "USD Nostro": "US$0.15",
+            "ZWG": "ZWG 3.75"
+          }
+        ]
+      },
+      {
+        "title": "Bank to Wallet",
+        "items": [
+          {
+            "Transaction": "Bank to Wallet",
+            "ZWG": "2.5% min ZWG 37.50",
+            "USD": "2.5% min US$1.50"
+          },
+          {
+            "Transaction": "Balance Enquiry",
+            "ZWG": "ZWG 7.50",
+            "USD": "US$0.30"
+          },
+          {
+            "Transaction": "Mini statement",
+            "ZWG": "ZWG 6.25",
+            "USD": "US$0.25"
+          }
+        ]
+      }
+    ]
+  }
+]

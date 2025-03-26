@@ -3,7 +3,7 @@ import tiktoken
 encoder = tiktoken.encoding_for_model("text-embedding-3-small")
 
 docs: list[str] = [
-    "extract_4.txt",
+    "data_ETL\ecobank.txt",
     
 ]
 

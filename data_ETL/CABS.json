@@ -1,0 +1,802 @@
+[
+  {
+    "metadata": {
+      "bank_name": "CABS",
+      "document_title": "Business Conditions For ZWG and Nostro FC Accounts",
+      "effective_date": "September 2024"
+    },
+    "currency": "ZWG",
+    "sections": [
+      {
+        "title": "Mobile Banking",
+        "items": [
+          {
+            "service": "Registration",
+            "charge": "No Charge"
+          },
+          {
+            "service": "Internal Transfer - Corporates",
+            "charge": "1.5% min ZWG10.00 max ZWG80.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Internal Transfer - Individuals",
+            "charge": "1% min ZWG10.00 max ZWG50.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Bill Payments - Corporates",
+            "charge": "1.5% min ZWG10.00 max ZWG40.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Bill Payments - Individuals",
+            "charge": "1% min ZWG10.00 max ZWG35.00 plus 2% IMT tax"
+          },
+          {
+            "service": "ZIPIT",
+            "charge": "2% min ZWG10.00 plus switch fees plus 2% IMT tax"
+          },
+          {
+            "service": "Ecocash - Bank to Wallet",
+            "charge": "2% min ZWG10.00 plus switch fees plus 2% IMT tax"
+          },
+          {
+            "service": "RTGS - Corporates",
+            "charge": "1.5% min ZWG19.00 max ZWG170.00 plus 2% IMT tax"
+          },
+          {
+            "service": "RTGS - Individuals",
+            "charge": "2% min ZWG15.00 max 150.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Balance Enquiry",
+            "charge": "ZWG4.50"
+          },
+          {
+            "service": "Mini statement",
+            "charge": "ZWG4.50"
+          },
+          {
+            "service": "SMS Charge",
+            "charge": "ZWG1.50"
+          },
+          {
+            "service": "Insufficient Funds Enquiry",
+            "charge": "ZWG2.00"
+          },
+          {
+            "service": "Flexi loan application fee",
+            "charge": "ZWG18.00"
+          },
+          {
+            "service": "Airtime Purchase (Econet, Netone, Telecel)",
+            "charge": "ZWG1.50"
+          }
+        ]
+      },
+      {
+        "title": "Over the Counter/Teller",
+        "items": [
+          {
+            "service": "Cash deposit",
+            "charge": "No charge"
+          },
+          {
+            "service": "Cash withdrawal corporates",
+            "charge": "3% min ZWG40.00"
+          },
+          {
+            "service": "Cash withdrawal individual",
+            "charge": "3% min ZWG12.00"
+          },
+          {
+            "service": "RTGS - corporates",
+            "charge": "1.5% min ZWG50.00 max ZWG190.00 plus 2% IMT tax"
+          },
+          {
+            "service": "RTGS individuals",
+            "charge": "1.5% min ZWG40.00 max ZWG180.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Internal Transfer Corporates",
+            "charge": "1.5% min ZWG15.00 max ZWG90.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Internal Transfer Individuals",
+            "charge": "1.5% min ZWG15.00 max ZWG80.00 plus 2% IMT tax"
+          },
+          {
+            "service": "ZIMRA Internal Transfer",
+            "charge": "1.5% min ZWG15 max ZWG60.00 IMT tax exempt"
+          },
+          {
+            "service": "Bank Statement (All account types)",
+            "charge": "ZWG5.00 per page"
+          },
+          {
+            "service": "Bill Payments (DSTV)",
+            "charge": "1.5% min ZWG10.00 max ZWG95.00 plus 2% IMT tax"
+          }
+        ]
+      },
+      {
+        "title": "ATM",
+        "items": [
+          {
+            "service": "Cash withdrawal - CABS on CABS",
+            "charge": "2.5% min ZWG6.00"
+          },
+          {
+            "service": "Cash withdrawal - ZimSwitch",
+            "charge": "2.5% min ZWG8.00 plus ZimSwitch fees"
+          },
+          {
+            "service": "Balance Enquiry",
+            "charge": "ZWG4.50"
+          },
+          {
+            "service": "Mini-Statement",
+            "charge": "ZWG4.50"
+          }
+        ]
+      },
+      {
+        "title": "ZeePay",
+        "items": [
+          {
+            "service": "On-us-Credit transfer",
+            "charge": "1% min ZiG4.00 max ZiG35"
+          },
+          {
+            "service": "Off-us-Credit transfer",
+            "charge": "1% min ZiG4.80 max ZiG35"
+          }
+        ]
+      },
+      {
+        "title": "Internet Banking",
+        "items": [
+          {
+            "service": "Registration",
+            "charge": "Free"
+          },
+          {
+            "service": "Internal Transfer - Corporates",
+            "charge": "1.5% min ZWG10.00 max ZWG80.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Internal Transfer - Individuals",
+            "charge": "1% min ZWG10.00 max ZWG50.00 plus 2% IMT tax"
+          },
+          {
+            "service": "ZIMRA Internal Transfer - Corporates",
+            "charge": "1.5% min ZWG10.00 max ZWG50.00 plus 2% IMT tax"
+          },
+          {
+            "service": "ZIMRA Internal Transfer - Individuals",
+            "charge": "1% min ZWG10.00 max ZWG50.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Bill Payment - Corporates",
+            "charge": "1.5% min ZWG10.00 max ZWG40.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Bill Payment - Individuals",
+            "charge": "1% min ZWG10.00 max ZWG35.00 plus 2% IMT tax"
+          },
+          {
+            "service": "RTGS - Corporates",
+            "charge": "1.5% min ZWG19.00 max ZWG170.00 plus 2% IMT tax"
+          },
+          {
+            "service": "RTGS - Individuals",
+            "charge": "1% min ZWG15.00 max ZWG150.00 plus 2% IMT tax"
+          },
+          {
+            "service": "RTGS school accounts",
+            "charge": "1% min ZWG15.00 max ZWG100.00 plus 2% IMT tax"
+          },
+          {
+            "service": "Token Replacement",
+            "charge": "ZWG50.00"
+          },
+          {
+            "service": "Bulk Payments - CABS to CABS",
+            "charge": "ZWG10.00 per transaction plus 2% IMT tax (Salary Payments exempt from IMT Tax)"
+          },
+          {
+            "service": "Bulk Payments - CABS to Another Bank",
+            "charge": "ZWG19.00 per transaction plus 2% IMT tax (Salary Payments IMTT exempt)"
+          }
+        ]
+      },
+      {
+        "title": "Merchant Point of Sale (POS)",
+        "items": [
+          {
+            "service": "Purchase- CABS on CABS <=ZWG36",
+            "charge": "ZWG0.80"
+          },
+          {
+            "service": "Purchase -CABS on CABS >36",
+            "charge": "1.25% min ZWG1.20 plus 2% IMT Tax"
+          },
+          {
+            "service": "Purchase -ZimSwitch <=ZWG36",
+            "charge": "ZWG1.60 plus switch fees"
+          },
+          {
+            "service": "Purchase-ZimSwitch >ZWG36",
+            "charge": "1.25% min ZWG1.60 plus 2% IMT tax plus switch fees"
+          },
+          {
+            "service": "Cash-back - CABS on CABS",
+            "charge": "2% min ZWG3.60"
+          },
+          {
+            "service": "Cash-back - ZimSwitch",
+            "charge": "2% min ZWG6.00 plus switch fees"
+          }
+        ]
+      },
+      {
+        "title": "Other Admin Charges",
+        "items": [
+          {
+            "service": "Debit orders",
+            "charge": "ZWG6.50"
+          },
+          {
+            "service": "ZIPIT/RTGS recall fee",
+            "charge": "ZWG150.00"
+          }
+        ]
+      },
+      {
+        "title": "Monthly Service",
+        "items": [
+          {
+            "service": "Blue",
+            "charge": "US$2.00 collected in ZWG"
+          },
+          {
+            "service": "Gold",
+            "charge": "US$3.00 collected in ZWG"
+          },
+          {
+            "service": "Gold - Business",
+            "charge": "US$4.00 collected in ZWG"
+          },
+          {
+            "service": "Platinum - Individuals",
+            "charge": "US$10.00 - US$15 collected in ZWG"
+          },
+          {
+            "service": "Platinum - Business",
+            "charge": "US$15.00 collected in ZWG"
+          },
+          {
+            "service": "Retail Ordinary/SME Business",
+            "charge": "US$5.00 collected in ZWG"
+          },
+          {
+            "service": "Corporate",
+            "charge": "US$15.00 collected in ZWG"
+          },
+          {
+            "service": "Senior Citizen",
+            "charge": "US$1.00 collected in ZWG"
+          },
+          {
+            "service": "Special 60+",
+            "charge": "No Charge"
+          },
+          {
+            "service": "Textacash/Scheme",
+            "charge": "No Charge"
+          },
+          {
+            "service": "School",
+            "charge": "No Charge"
+          }
+        ]
+      },
+      {
+        "title": "Retail Lending",
+        "items": [
+          {
+            "service": "Personal Loan",
+            "charge": "25% per annum"
+          },
+          {
+            "service": "Equity Release",
+            "charge": "25% per annum"
+          },
+          {
+            "service": "Ordinary Mortgage Loan",
+            "charge": "25% - 85% per annum"
+          }
+        ]
+      },
+      {
+        "title": "Card Purchase Limits",
+        "items": [
+          {
+            "service": "Blue Card",
+            "charge": "ZWG70 000"
+          },
+          {
+            "service": "Gold Card",
+            "charge": "ZWG105 000"
+          },
+          {
+            "service": "Platinum Card",
+            "charge": "ZWG140 000"
+          },
+          {
+            "service": "Internal Funds Transfer",
+            "charge": "ZWG700 000"
+          },
+          {
+            "service": "ZIPIT limits",
+            "charge": "ZWG2400 per transaction/ ZWG8000 per month (monthly limit can be exhausted within a day)"
+          }
+        ]
+      },
+      {
+        "title": "ZWG Fixed Deposits",
+        "items": [
+          {
+            "Tenor Days": "30",
+            "Rate": "5% per annum"
+          },
+          {
+            "Tenor Days": "60",
+            "Rate": "5% per annum"
+          },
+          {
+            "Tenor Days": "90",
+            "Rate": "5% per annum"
+          },
+          {
+            "Tenor Days": "180",
+            "Rate": "5% per annum"
+          },
+          {
+            "Tenor Days": "360 (1yr)",
+            "Rate": "5% per annum"
+          }
+        ]
+      },
+      {
+        "title": "Savings Deposits",
+        "items": [
+          {
+            "service": "Interest rate",
+            "charge": "3.5% per annum"
+          }
+        ]
+      },
+      {
+        "title": "ZWG Term Deposit Rates",
+        "items": [
+          {
+            "Tenor Days": "30",
+            "Rate": "5% per annum"
+          },
+          {
+            "Tenor Days": "60",
+            "Rate": "5% per annum"
+          },
+          {
+            "Tenor Days": "90",
+            "Rate": "5% per annum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "bank_name": "CABS",
+      "document_title": "Business Conditions For ZWG and Nostro FC Accounts",
+      "effective_date": "September 2024"
+    },
+    "currency": "USD",
+    "sections": [
+      {
+        "title": "Mobile Banking",
+        "items": [
+          {
+            "service": "Registration",
+            "charge": "No Charge"
+          },
+          {
+            "service": "ZIPIT",
+            "charge": "1% min US$2.00 plus 1% Switch fee plus 1% IMT tax"
+          },
+          {
+            "service": "Internal Transfer - Corporates",
+            "charge": "1% min US$0.50 max US$3.00"
+          },
+          {
+            "service": "Internal Transfer - Individuals",
+            "charge": "1% min US$0.50 max US$2.00"
+          },
+          {
+            "service": "RTGS",
+            "charge": "US$3.00 plus 1% IMT tax"
+          },
+          {
+            "service": "Bill Payments - Corporates",
+            "charge": "1% min 50c max US$3.00"
+          },
+          {
+            "service": "Bill Payments - Individuals",
+            "charge": "1% min 50c max US$2.00"
+          },
+          {
+            "service": "Balance Enquiry",
+            "charge": "US$0.07"
+          },
+          {
+            "service": "Mini-statement",
+            "charge": "US$0.07"
+          },
+          {
+            "service": "Insufficient Funds Enquiry",
+            "charge": "US$0.35"
+          },
+          {
+            "service": "FlexiLoan application fee",
+            "charge": "US$0.25"
+          },
+          {
+            "service": "Wallet Banking Services(B2W) Ecocash USD",
+            "charge": "1% min US$0.50 max US$2.00 + 2% IMT Tax"
+          },
+          {
+            "service": "DSTV on Digital Platforms",
+            "charge": "1% min US$0.50 max US$2.00"
+          },
+          {
+            "service": "EezySend on Digital Platforms < $100",
+            "charge": "US$2.00"
+          },
+          {
+            "service": "EezySend on Digital Platforms $100-$200",
+            "charge": "US$3.00"
+          },
+          {
+            "service": "EezySend on Digital Platforms $251 - $500",
+            "charge": "US$5.00"
+          }
+        ]
+      },
+      {
+        "title": "Over the Counter/Teller",
+        "items": [
+          {
+            "service": "Cash Deposit",
+            "charge": "No Charge"
+          },
+          {
+            "service": "Soiled Notes Cash Deposit",
+            "charge": "10% of amount"
+          },
+          {
+            "service": "Cash withdrawal - Corporates",
+            "charge": "3% min US$5.00"
+          },
+          {
+            "service": "Cash withdrawal - Individual",
+            "charge": "3% min US$4.00"
+          },
+          {
+            "service": "RTGS",
+            "charge": "US$3.00 plus 1% IMT tax"
+          },
+          {
+            "service": "Internal Transfer",
+            "charge": "US$2.00"
+          },
+          {
+            "service": "ZIMRA Internal Transfer",
+            "charge": "US$2.00"
+          },
+          {
+            "service": "Mastercard Annual Card Maintenance Fee",
+            "charge": "US$3.00"
+          },
+          {
+            "service": "Mastercard Prepaid Issuance & Replacement",
+            "charge": "US$5.00"
+          },
+          {
+            "service": "Initial Visa Card Application & Replacement fee",
+            "charge": "US$5.00"
+          },
+          {
+            "service": "Annual Maintenance Fee Visa Classic",
+            "charge": "US$3.00"
+          },
+          {
+            "service": "Annual Maintenance Fee Visa Gold",
+            "charge": "US$5.00"
+          },
+          {
+            "service": "Annual Maintenance Fee Visa Platinum",
+            "charge": "US$10.00"
+          },
+          {
+            "service": "Annual Maintenance Fee Visa Inifinite",
+            "charge": "US$50.00"
+          },
+          {
+            "service": "DStv",
+            "charge": "US$3.00"
+          }
+        ]
+      },
+      {
+        "title": "ATM",
+        "items": [
+          {
+            "service": "Cash Withdrawal - CABS on CABS",
+            "charge": "2.5% min US$2.50"
+          },
+          {
+            "service": "Cash Withdrawal - Surcharge on Foreign International Cards",
+            "charge": "2.5% min US$5.00"
+          }
+        ]
+      },
+      {
+        "title": "Internet Banking",
+        "items": [
+          {
+            "service": "Bill Payment - Corporates",
+            "charge": "1% min 50c max US$3.00"
+          },
+          {
+            "service": "Bill Payment - Individuals",
+            "charge": "1% min 50c max US$2.00"
+          },
+          {
+            "service": "Registration",
+            "charge": "No Charge"
+          },
+          {
+            "service": "Internal Transfer",
+            "charge": "US$1.00"
+          },
+          {
+            "service": "ZIMRA Internal Transfer",
+            "charge": "US$1.00"
+          },
+          {
+            "service": "RTGS",
+            "charge": "US$3.00 plus 1% IMT tax"
+          }
+        ]
+      },
+      {
+        "title": "Online Payments",
+        "items": [
+          {
+            "service": "CABS on CABS",
+            "charge": "1.65% min US$1.50 plus 1% IMT tax"
+          },
+          {
+            "service": "Zimswitch",
+            "charge": "1.65% min US$1.50 plus 1% IMT tax"
+          },
+          {
+            "service": "VISA/MasterCard",
+            "charge": "1.65% min US$1.50 plus 1% IMT tax"
+          }
+        ]
+      },
+      {
+        "title": "Point of Sale (POS)",
+        "items": [
+          {
+            "service": "Purchase - CABS on CABS",
+            "charge": "1.65% min US$0.25 plus 1% IMT tax"
+          },
+          {
+            "service": "CABS on Others (Zimswitch)",
+            "charge": "1.65% min US$0.25 plus 1% IMT tax"
+          },
+          {
+            "service": "Purchase - CABS on Others (VISA/MasterCard)",
+            "charge": "1.65% min US$0.25 plus 1% IMT tax"
+          }
+        ]
+      },
+      {
+        "title": "Telegraphic transfers",
+        "items": [
+          {
+            "service": "TT Individuals",
+            "charge": "1% min US$35.00 max US$160.00"
+          },
+          {
+            "service": "TT Corporate/Business",
+            "charge": "2% min US$35.00 max US$300.00"
+          }
+        ]
+      },
+      {
+        "title": "Monthly Service",
+        "items": [
+          {
+            "service": "Blue Nostro FCA Individual",
+            "charge": "US$2.00"
+          },
+          {
+            "service": "Nostro FCA - Civil Servant",
+            "charge": "US$2.00"
+          },
+          {
+            "service": "Gold Nostro FCA Individual",
+            "charge": "US$3.00"
+          },
+          {
+            "service": "Platinum Nostro FCA Individual",
+            "charge": "US$10.00 - US$15.00"
+          },
+          {
+            "service": "Nostro FCA Domestic",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Domestic - Exempt",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA NGO/Embassies/International Organisation",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Non-Resident FCA",
+            "charge": "US$10.00"
+          },
+          {
+            "service": "Tobacco Domestic Nostro FCA",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Tourism Operators Nostro FCA",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Exports",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Investments",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Offshore",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Transitory",
+            "charge": "No Charge"
+          },
+          {
+            "service": "Nostro FCA Tobacco Buying Transitory",
+            "charge": "No Charge"
+          }
+        ]
+      },
+      {
+        "title": "Minimum Balance",
+        "items": [
+          {
+            "service": "Blue Nostro FCA Individual",
+            "charge": "US$2.00"
+          },
+          {
+            "service": "Nostro FCA - Civil Servant",
+            "charge": "US$2.00"
+          },
+          {
+            "service": "Gold Nostro FCA Individual",
+            "charge": "US$3.00"
+          },
+          {
+            "service": "Platinum Nostro FCA Individual",
+            "charge": "US$5.00"
+          },
+          {
+            "service": "Platinum Plus Nostro FCA Individual",
+            "charge": "US$10.00"
+          },
+          {
+            "service": "Nostro FCA Domestic",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Domestic - Exempt",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA NGO/Embassy/International Organisation",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Non - Resident FCA",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Tobacco Domestic Nostro FCA",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Tourism Operators Nostro FCA",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Exports",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Investments",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Offshore",
+            "charge": "US$20.00"
+          },
+          {
+            "service": "Nostro FCA Transitory",
+            "charge": "Not applicable"
+          }
+        ]
+      },
+      {
+        "title": "Retail Lending",
+        "items": [
+          {
+            "service": "Personal Loan",
+            "charge": "15% - 18% per annum"
+          },
+          {
+            "service": "Equity Release",
+            "charge": "15% - 18% per annum"
+          },
+          {
+            "service": "Ordinary Mortgage Loan",
+            "charge": "15% - 18% per annum"
+          }
+        ]
+      },
+      {
+        "title": "Card Purchase Limits",
+        "items": [
+          {
+            "service": "Blue Card",
+            "charge": "US$5 000.00"
+          },
+          {
+            "service": "Gold Card",
+            "charge": "US$7 500.00"
+          },
+          {
+            "service": "Platinum Card",
+            "charge": "US$10 000.00"
+          },
+          {
+            "service": "Internal Funds Transfer",
+            "charge": "US$50 000.00"
+          },
+          {
+            "service": "ZIPIT limits",
+            "charge": "US$500.00 per transaction/ US$1000.00 per month (Monthly limit can be exhausted within a day)"
+          }
+        ]
+      }
+    ]
+  }
+]

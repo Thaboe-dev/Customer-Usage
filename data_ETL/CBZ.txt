@@ -1,0 +1,522 @@
+[
+  {
+    "metadata": {
+      "bank_name": "CBZ BANK LIMITED",
+      "document_title": "BUSINESS CONDITIONS",
+      "effective_date": "FEBRUARY 2025"
+    },
+    "sections": [
+      {
+        "title": "1. BANKING CHARGES",
+        "description": "Charges for various banking transactions across ZWG and NOSTRO (US$) accounts.",
+        "columns": [
+          "Type",
+          "ZWG Accounts - Individual Accounts",
+          "ZWG Accounts - Business Accounts",
+          "NOSTRO Accounts (US$) - Individual Accounts",
+          "NOSTRO Accounts (US$) - Business Accounts"
+        ],
+        "items": [
+          {
+            "Type": "Cash Withdrawal fees",
+            "ZWG Accounts - Individual Accounts": "3% Min ZWG40.00",
+            "ZWG Accounts - Business Accounts": "3% Min ZWG150.00",
+            "NOSTRO Accounts (US$) - Individual Accounts": "3.5% Min US$2.27",
+            "NOSTRO Accounts (US$) - Business Accounts": "3.5% min US$13.65"
+          },
+          {
+            "Type": "ATM withdrawal fee",
+            "ZWG Accounts - Individual Accounts": "Up to US$5.00 or equivalent - Waived. Above US$5.00 or equivalent - 2.8%",
+            "ZWG Accounts - Business Accounts": "Up to US$5.00 or equivalent - Waived. Above US$5.00 or equivalent - 2.8%",
+            "NOSTRO Accounts (US$) - Individual Accounts": "Up to US$5.00 - Waived. Above US$5.00 - 2.5%",
+            "NOSTRO Accounts (US$) - Business Accounts": "Up to US$5.00 - Waived. Above US$5.00 - 2.5%"
+          },
+          {
+            "Type": "ATM Debit Card first issue plus PIN",
+            "ZWG Accounts - Individual Accounts": "ZWG135.00",
+            "ZWG Accounts - Business Accounts": "ZWG135.00",
+            "NOSTRO Accounts (US$) - Individual Accounts": "US$5.00",
+            "NOSTRO Accounts (US$) - Business Accounts": "US$5.00"
+          },
+          {
+            "Type": "Merchant POS (CBZ to CBZ)",
+            "ZWG Accounts - Individual Accounts": "Up to US$5.00 or equivalent - Waived. Above US$5.00 or equivalent - 1.5%",
+            "ZWG Accounts - Business Accounts": "Up to US$5.00 or equivalent - Waived. Above US$5.00 or equivalent - 1.5%",
+            "NOSTRO Accounts (US$) - Individual Accounts": "Up to US$5.00 - Waived. Above US$5.00 - 1.4%",
+            "NOSTRO Accounts (US$) - Business Accounts": "Up to US$5.00 - Waived. Above US$5.00 - 1.4%"
+          },
+          {
+            "Type": "Merchant POS (ZIMSWITCH)",
+            "ZWG Accounts - Individual Accounts": "Up to US$5.00 or equivalent - Waived. Above US$5.00 or equivalent - 2.5%",
+            "ZWG Accounts - Business Accounts": "Up to US$5.00 or equivalent - Waived. Above US$5.00 or equivalent - 2.5%",
+            "NOSTRO Accounts (US$) - Individual Accounts": "Up to US$5.00 - Waived. Above US$5.00 - 1.7%",
+            "NOSTRO Accounts (US$) - Business Accounts": "Up to US$5.00 - Waived. Above US$5.00 - 1.7%"
+          },
+          {
+            "Type": "Maintenance fees (per month)",
+            "ZWG Accounts - Individual Accounts": "ZWG150.00",
+            "ZWG Accounts - Business Accounts": "ZWG450.00 to ZWG800.00",
+            "NOSTRO Accounts (US$) - Individual Accounts": "US$6.00",
+            "NOSTRO Accounts (US$) - Business Accounts": "US$26.00"
+          },
+          {
+            "Type": "Request for Statement (Manual)",
+            "ZWG Accounts - Individual Accounts": "ZWG25.00 per page",
+            "ZWG Accounts - Business Accounts": "ZWG25.00 per page",
+            "NOSTRO Accounts (US$) - Individual Accounts": "US$1.58 per page",
+            "NOSTRO Accounts (US$) - Business Accounts": "US$1.58 per page"
+          },
+          {
+            "Type": "Account Balance Enquiry (Manual)",
+            "ZWG Accounts - Individual Accounts": "ZWG25.00",
+            "ZWG Accounts - Business Accounts": "ZWG25.00",
+            "NOSTRO Accounts (US$) - Individual Accounts": "US$1.58",
+            "NOSTRO Accounts (US$) - Business Accounts": "US$1.58"
+          },
+          {
+            "Type": "Cash Deposits",
+            "ZWG Accounts - Individual Accounts": "No Charge",
+            "ZWG Accounts - Business Accounts": "No Charge",
+            "NOSTRO Accounts (US$) - Individual Accounts": "No Charge",
+            "NOSTRO Accounts (US$) - Business Accounts": "No Charge"
+          },
+          {
+            "Type": "RTGS",
+            "ZWG Accounts - Individual Accounts": "Up to US$5.00 or equivalent - Waived. Above US$5.00 or equivalent - 2%, Max ZWG180.00",
+            "ZWG Accounts - Business Accounts": "Up to US$5.00 or equivalent - Waived. Above US$5.00 or equivalent - 2%, Max ZWG250.00",
+            "NOSTRO Accounts (US$) - Individual Accounts": "Up to US$5.00- Waived. Above US$5.00- 1%, Max US$12.00",
+            "NOSTRO Accounts (US$) - Business Accounts": "Up to US$5.00- Waived. Above US$5.00-1%, Max US$28.54"
+          },
+          {
+            "Type": "Internal Transfers",
+            "ZWG Accounts - Individual Accounts": "Up to US$5.00 or equivalent- Waived. Above US$5.00- 2%, Max ZWG100.00",
+            "ZWG Accounts - Business Accounts": "Up to US$5.00 or equivalent- Waived. Above US$5.00- 2%, Max ZWG175.00",
+            "NOSTRO Accounts (US$) - Individual Accounts": "Up to US$5.00 - Waived. Above US$5.00 -1%, Max US$4.00",
+            "NOSTRO Accounts (US$) - Business Accounts": "Up to US$5.00 - Waived. Above US$5.00 -1%, Max US$6.85"
+          },
+          {
+            "Type": "Telegraphic Transfer",
+            "ZWG Accounts - Individual Accounts": "2.5% Min US$42.00, Max US$190.00 @ bank rate",
+            "ZWG Accounts - Business Accounts": "2.5% Min US$78.00, Max US$347.00 @ bank rate",
+            "NOSTRO Accounts (US$) - Individual Accounts": "2.5% Min US$42.00, Max US$190.00",
+            "NOSTRO Accounts (US$) - Business Accounts": "2.5% Min US$78.00, Max US$347.00"
+          },
+          {
+            "Type": "Foreign Bills Negotiable/ Discounted",
+            "ZWG Accounts - Individual Accounts": "3% minimum US$5.00",
+            "ZWG Accounts - Business Accounts": "3% minimum US$5.00",
+            "NOSTRO Accounts (US$) - Individual Accounts": "N/A",
+            "NOSTRO Accounts (US$) - Business Accounts": "N/A"
+          },
+          {
+            "Type": "SWIFT Charge on Drafts/ Telegraphic Transfer",
+            "ZWG Accounts - Individual Accounts": "US$13.18 @ bank rate",
+            "ZWG Accounts - Business Accounts": "US$15.58 @ bank rate",
+            "NOSTRO Accounts (US$) - Individual Accounts": "US$13.18",
+            "NOSTRO Accounts (US$) - Business Accounts": "US$15.58"
+          }
+        ]
+      },
+      {
+        "title": "2. BANKING PRODUCTS",
+        "subsections": [
+          {
+            "title": "2.1 CURRENT ACCOUNTS",
+            "columns": [
+              "Type",
+              "ZWG Accounts - Individual Accounts",
+              "ZWG Accounts - Corporates",
+              "Nostro Accounts (US$) - Individual",
+              "Nostro Accounts (US$) - Corporates"
+            ],
+            "items": [
+              {
+                "Type": "Interest rate on credit balances",
+                "ZWG Accounts - Individual Accounts": "n/a",
+                "ZWG Accounts - Corporates": "n/a",
+                "Nostro Accounts (US$) - Individual": "n/a",
+                "Nostro Accounts (US$) - Corporates": "n/a"
+              },
+              {
+                "Type": "Minimum Balance",
+                "ZWG Accounts - Individual Accounts": "No minimum balance",
+                "ZWG Accounts - Corporates": "No minimum balance",
+                "Nostro Accounts (US$) - Individual": "No minimum balance",
+                "Nostro Accounts (US$) - Corporates": "No minimum balance"
+              },
+              {
+                "Type": "Cash Withdrawal restrictions (Regulatory requirement)",
+                "ZWG Accounts - Individual Accounts": "Up to ZWG3,000.00 per week",
+                "ZWG Accounts - Corporates": "Up to ZWG30,000.00 per week",
+                "Nostro Accounts (US$) - Individual": "Up to USD1,000.00 per day",
+                "Nostro Accounts (US$) - Corporates": "Up to USD10,000.00 per day"
+              }
+            ]
+          },
+          {
+            "title": "2.2 ORDINARY SAVINGS ACCOUNTS",
+            "columns": [
+              "Type",
+              "ZWG Accounts - Individual Accounts",
+              "ZWG Accounts - Corporates",
+              "Nostro Accounts (US$) - Individual",
+              "Nostro Accounts (US$) - Corporates"
+            ],
+            "items": [
+              {
+                "Type": "Interest rate on credit balances",
+                "ZWG Accounts - Individual Accounts": "3.5% per annum",
+                "ZWG Accounts - Corporates": "n/a",
+                "Nostro Accounts (US$) - Individual": "1% per annum",
+                "Nostro Accounts (US$) - Corporates": "n/a"
+              },
+              {
+                "Type": "Interest Calculation",
+                "ZWG Accounts - Individual Accounts": "On daily cleared credit balances",
+                "ZWG Accounts - Corporates": "On daily cleared credit balances",
+                "Nostro Accounts (US$) - Individual": "On daily cleared credit balances",
+                "Nostro Accounts (US$) - Corporates": "On daily cleared credit balances"
+              },
+              {
+                "Type": "Interest payment frequency",
+                "ZWG Accounts - Individual Accounts": "Monthly",
+                "ZWG Accounts - Corporates": "Monthly",
+                "Nostro Accounts (US$) - Individual": "Monthly",
+                "Nostro Accounts (US$) - Corporates": "Monthly"
+              },
+              {
+                "Type": "Minimum Balance",
+                "ZWG Accounts - Individual Accounts": "ZWG100.00",
+                "ZWG Accounts - Corporates": "ZWG1,000.00",
+                "Nostro Accounts (US$) - Individual": "US$5.00",
+                "Nostro Accounts (US$) - Corporates": "US$20.00"
+              },
+              {
+                "Type": "Maximum Balance",
+                "ZWG Accounts - Individual Accounts": "No Maximum",
+                "ZWG Accounts - Corporates": "No Maximum",
+                "Nostro Accounts (US$) - Individual": "No Maximum",
+                "Nostro Accounts (US$) - Corporates": "No Maximum"
+              },
+              {
+                "Type": "Below Minimum Balance Charge",
+                "ZWG Accounts - Individual Accounts": "Yes",
+                "ZWG Accounts - Corporates": "Yes",
+                "Nostro Accounts (US$) - Individual": "Yes",
+                "Nostro Accounts (US$) - Corporates": "Yes"
+              },
+              {
+                "Type": "Cash Withdrawal restrictions (Regulatory requirement)",
+                "ZWG Accounts - Individual Accounts": "Up to ZWG3,000.00 per week",
+                "ZWG Accounts - Corporates": "Up to ZWG30,000.00 per week",
+                "Nostro Accounts (US$) - Individual": "Up to USD1,000.00 per day",
+                "Nostro Accounts (US$) - Corporates": "Up to USD10,000.00 per day"
+              }
+            ]
+          },
+          {
+            "title": "2.3 PRIVATE BANKING CURRENT ACCOUNTS",
+            "columns": [
+              "Type",
+              "ZWG Accounts - Individual Accounts",
+              "ZWG Accounts - Business",
+              "Nostro Accounts (US$) - Individual",
+              "Nostro Accounts (US$) - Business"
+            ],
+            "items": [
+              {
+                "Type": "Interest rate on credit balances",
+                "ZWG Accounts - Individual Accounts": "n/a",
+                "ZWG Accounts - Business": "n/a",
+                "Nostro Accounts (US$) - Individual": "n/a",
+                "Nostro Accounts (US$) - Business": "n/a"
+              },
+              {
+                "Type": "Subscription Fee",
+                "ZWG Accounts - Individual Accounts": "ZWG203.00",
+                "ZWG Accounts - Business": "ZWG300.00",
+                "Nostro Accounts (US$) - Individual": "US$24.00",
+                "Nostro Accounts (US$) - Business": "US$48.00"
+              },
+              {
+                "Type": "Minimum Balance",
+                "ZWG Accounts - Individual Accounts": "ZWG500.00",
+                "ZWG Accounts - Business": "ZWG1,000.00",
+                "Nostro Accounts (US$) - Individual": "US$50.00",
+                "Nostro Accounts (US$) - Business": "US$100.00"
+              },
+              {
+                "Type": "Maximum Balance",
+                "ZWG Accounts - Individual Accounts": "No Maximum",
+                "ZWG Accounts - Business": "No Maximum",
+                "Nostro Accounts (US$) - Individual": "No Maximum",
+                "Nostro Accounts (US$) - Business": "No Maximum"
+              },
+              {
+                "Type": "Below Minimum Balance Charge",
+                "ZWG Accounts - Individual Accounts": "Yes",
+                "ZWG Accounts - Business": "Yes",
+                "Nostro Accounts (US$) - Individual": "No",
+                "Nostro Accounts (US$) - Business": "No"
+              },
+              {
+                "Type": "Cash Withdrawal restrictions (Regulatory requirement)",
+                "ZWG Accounts - Individual Accounts": "Up to ZWG3,000.00 per week",
+                "ZWG Accounts - Business": "Up to ZWG30,000.00 per week",
+                "Nostro Accounts (US$) - Individual": "Up to USD1,000.00 per day",
+                "Nostro Accounts (US$) - Business": "Up to USD10,000.00 per day"
+              }
+            ]
+          },
+          {
+            "title": "2.4 SIMPLE SAVER SAVINGS ACCOUNT FOR INDIVIDUALS",
+            "columns": [
+              "Type",
+              "Nostro Accounts (US$)",
+              "ZWG Accounts"
+            ],
+            "items": [
+              {
+                "Type": "Interest rate on credit balances",
+                "Nostro Accounts (US$)": "1% per annum",
+                "ZWG Accounts": "3.5 per annum"
+              },
+              {
+                "Type": "Interest Calculation",
+                "Nostro Accounts (US$)": "On daily cleared credit balances",
+                "ZWG Accounts": "On daily cleared credit balances"
+              },
+              {
+                "Type": "Interest payment frequency",
+                "Nostro Accounts (US$)": "Monthly",
+                "ZWG Accounts": "Monthly"
+              },
+              {
+                "Type": "Minimum Balance",
+                "Nostro Accounts (US$)": "$2.00",
+                "ZWG Accounts": "$2.00"
+              },
+              {
+                "Type": "Maximum Balance",
+                "Nostro Accounts (US$)": "No Maximum",
+                "ZWG Accounts": "No Maximum"
+              },
+              {
+                "Type": "Below Minimum Balance Charge",
+                "Nostro Accounts (US$)": "Yes",
+                "ZWG Accounts": "Yes"
+              },
+              {
+                "Type": "Withdrawal restrictions",
+                "Nostro Accounts (US$)": "3 Withdrawals per month",
+                "ZWG Accounts": "4 Withdrawals per month"
+              }
+            ]
+          },
+          {
+            "title": "2.5 CASH PLUS SAVINGS ACCOUNTS",
+            "columns": [
+              "Type",
+              "ZWG Accounts - Individual",
+              "ZWG Accounts - Business",
+              "ZWG Accounts - Student",
+              "Nostro Accounts (US$) - Individual",
+              "Nostro Accounts (US$) - Business"
+            ],
+            "items": [
+              {
+                "Type": "Interest rate on credit balances",
+                "ZWG Accounts - Individual": "3.5% per annum",
+                "ZWG Accounts - Business": "3.5% per annum",
+                "ZWG Accounts - Student": "3.5% per annum",
+                "Nostro Accounts (US$) - Individual": "1% per annum",
+                "Nostro Accounts (US$) - Business": "1% per annum."
+              },
+              {
+                "Type": "Interest Calculation",
+                "ZWG Accounts - Individual": "On minimum monthly balance",
+                "ZWG Accounts - Business": "On minimum monthly balance",
+                "ZWG Accounts - Student": "On minimum monthly balance",
+                "Nostro Accounts (US$) - Individual": "On minimum monthly balance",
+                "Nostro Accounts (US$) - Business": "On minimum monthly balance"
+              },
+              {
+                "Type": "Interest payment frequency",
+                "ZWG Accounts - Individual": "Monthly",
+                "ZWG Accounts - Business": "Monthly",
+                "ZWG Accounts - Student": "Monthly",
+                "Nostro Accounts (US$) - Individual": "Monthly",
+                "Nostro Accounts (US$) - Business": "Monthly"
+              },
+              {
+                "Type": "Minimum Balance",
+                "ZWG Accounts - Individual": "$2,500.00",
+                "ZWG Accounts - Business": "$5,000.00",
+                "ZWG Accounts - Student": "$1,000.00",
+                "Nostro Accounts (US$) - Individual": "US$100.00",
+                "Nostro Accounts (US$) - Business": "US$500.00"
+              },
+              {
+                "Type": "Maximum Balance",
+                "ZWG Accounts - Individual": "No Maximum",
+                "ZWG Accounts - Business": "No Maximum",
+                "ZWG Accounts - Student": "No Maximum",
+                "Nostro Accounts (US$) - Individual": "No Maximum",
+                "Nostro Accounts (US$) - Business": "No Maximum"
+              },
+              {
+                "Type": "Withdrawal restrictions",
+                "ZWG Accounts - Individual": "1 free withdrawal after 90 days",
+                "ZWG Accounts - Business": "No withdrawals during the 6 months investment period",
+                "ZWG Accounts - Student": "1 free transfer after 30 days investment",
+                "Nostro Accounts (US$) - Individual": "1 free withdrawal after 90 days",
+                "Nostro Accounts (US$) - Business": "1 free withdrawal after 90 days"
+              }
+            ]
+          },
+          {
+            "title": "2.6 FIXED DEPOSIT ACCOUNTS",
+             "columns": [
+              "Type",
+              "ZWG Accounts",
+              "Nostro Accounts (US$)"
+            ],
+            "items": [
+              {
+                "Type": "Interest rate",
+                "ZWG Accounts": "As per daily quotes from Treasury Division minimum 5% per annum",
+                "Nostro Accounts (US$)": "As per daily quotes from Treasury Division minimum 5.5 % per annum"
+              },
+              {
+                "Type": "Interest calculation",
+                "ZWG Accounts": "For fixed period",
+                "Nostro Accounts (US$)": "For fixed period"
+              },
+              {
+                "Type": "Interest payment frequency",
+                "ZWG Accounts": "Paid on maturity.",
+                "Nostro Accounts (US$)": "Paid on maturity."
+              },
+              {
+                "Type": "Minimum investment",
+                "ZWG Accounts": "ZWG26,500.00",
+                "Nostro Accounts (US$)": "$1,000.00"
+              },
+              {
+                "Type": "Withdrawal restrictions",
+                "ZWG Accounts": "At maturity",
+                "Nostro Accounts (US$)": "At maturity"
+              }
+            ],
+             "note": "Contact our Treasury Division for a firm quote on investments above ZWG265,000.00 and USD 10,000.00. Tel: +263 753298, 791188, 759419, 755013"
+          },
+          {
+            "title": "2.7 LOANS & OVERDRAFTS",
+            "columns": [
+              "Type",
+              "ZWG Accounts - Individuals & Corporates",
+              "Nostro Accounts (US$) - Individuals & Corporates"
+            ],
+            "items": [
+               {
+                "Type": "Interest rate",
+                "ZWG Accounts - Individuals & Corporates": "Minimum Lending Rate plus Margin",
+                "Nostro Accounts (US$) - Individuals & Corporates": "Minimum Lending Rate plus Margin"
+              },
+              {
+                "Type": "Interest calculation",
+                "ZWG Accounts - Individuals & Corporates": "On daily balance",
+                "Nostro Accounts (US$) - Individuals & Corporates": "On daily balance"
+              },
+               {
+                "Type": "Interest payment frequency",
+                "ZWG Accounts - Individuals & Corporates": "Loans - Per Loan Contract, Overdrafts - Monthly",
+                "Nostro Accounts (US$) - Individuals & Corporates": "Loans - Per Loan Contract, Overdrafts - Monthly"
+              },
+              {
+                "Type": "Establishment fees",
+                "ZWG Accounts - Individuals & Corporates": "2% to 6%",
+                "Nostro Accounts (US$) - Individuals & Corporates": "2% to 6%"
+              }
+            ]
+          },
+          {
+            "title": "2.8 MORTGAGE FINANCE",
+            "columns": [
+              "Type",
+              "ZWG Accounts - Individuals & Corporates",
+              "Nostro Accounts (US$) - Individuals & Corporates"
+            ],
+             "items": [
+               {
+                "Type": "Interest rate",
+                "ZWG Accounts - Individuals & Corporates": "Minimum Lending Rate plus Margin",
+                "Nostro Accounts (US$) - Individuals & Corporates": "Minimum Lending Rate plus Margin"
+              },
+              {
+                "Type": "Interest calculation",
+                "ZWG Accounts - Individuals & Corporates": "On daily balance",
+                "Nostro Accounts (US$) - Individuals & Corporates": "On daily balance"
+              },
+               {
+                "Type": "Interest payment frequency",
+                "ZWG Accounts - Individuals & Corporates": "Monthly",
+                "Nostro Accounts (US$) - Individuals & Corporates": "Monthly"
+              },
+              {
+                "Type": "Valuation Fees",
+                "ZWG Accounts - Individuals & Corporates": "1% of Loan Amount (Once Off)",
+                "Nostro Accounts (US$) - Individuals & Corporates": "1% of Loan Amount (Once Off)"
+              },
+               {
+                "Type": "Establishment fees",
+                "ZWG Accounts - Individuals & Corporates": "1% to 3% of Loan Amount (Once Off)",
+                "Nostro Accounts (US$) - Individuals & Corporates": "1% to 3% of Loan Amount (Once Off)"
+              },
+               {
+                "Type": "Annual Administration Fees",
+                "ZWG Accounts - Individuals & Corporates": "1% of Outstanding Loan Balance (payable monthly)",
+                "Nostro Accounts (US$) - Individuals & Corporates": "1% of Outstanding Loan Balance (payable monthly)"
+              }
+            ]
+          },
+           {
+            "title": "2.9 LEASE FINANCE LOANS",
+            "columns": [
+              "Type",
+              "ZWG Accounts - Individuals & Corporates",
+              "Nostro Accounts (US$) - Individuals & Corporates"
+            ],
+             "items": [
+               {
+                "Type": "Interest rate",
+                "ZWG Accounts - Individuals & Corporates": "Minimum Lending Rate plus Margin",
+                "Nostro Accounts (US$) - Individuals & Corporates": "Minimum Lending Rate plus Margin"
+              },
+              {
+                "Type": "Interest calculation",
+                "ZWG Accounts - Individuals & Corporates": "On daily balance",
+                "Nostro Accounts (US$) - Individuals & Corporates": "On daily balance"
+              },
+               {
+                "Type": "Interest payment frequency",
+                "ZWG Accounts - Individuals & Corporates": "Loans - Per Loan Contract",
+                "Nostro Accounts (US$) - Individuals & Corporates": "Loans - Per Loan Contract"
+              },
+                {
+                "Type": "Establishment fees",
+                "ZWG Accounts - Individuals & Corporates": "2% to 5% (Upfront)",
+                "Nostro Accounts (US$) - Individuals & Corporates": "2% to 5% (Upfront)"
+              },
+               {
+                "Type": "Residual fee",
+                "ZWG Accounts - Individuals & Corporates": "1% (At Maturity)",
+                "Nostro Accounts (US$) - Individuals & Corporates": "1% Min US$10.00 (At Maturity)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

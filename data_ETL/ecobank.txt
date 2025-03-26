@@ -1,0 +1,454 @@
+[
+  {
+    "currency": "ZWG",
+    "metadata": {
+      "bank_name": "Ecobank Zimbabwe Limited",
+      "document_title": "Business Conditions",
+      "effective_date": "September 2024"
+    },
+    "sections": [
+      {
+        "title": "VARIOUS ACCOUNT SEGMENTS (ACCOUNT MAINTENANCE)",
+        "category": "MONTHLY SERVICE CHARGE",
+        "items": [
+          {
+            "service": "Farmers Account",
+            "charge": "ZWG30"
+          },
+          {
+            "service": "Civil Servants",
+            "charge": "ZWG30"
+          },
+          {
+            "service": "Low Cost Current Account",
+            "charge": "ZWG30"
+          },
+          {
+            "service": "Individual Classic Current Account",
+            "charge": "ZWG60"
+          },
+          {
+            "service": "Advantage Current Account",
+            "charge": "ZWG90"
+          },
+          {
+            "service": "Premier Current Account",
+            "charge": "ZWG135"
+          },
+          {
+            "service": "Sole Trader Current Account",
+            "charge": "ZWG200"
+          },
+          {
+            "service": "SME Current Account",
+            "charge": "ZWG280"
+          },
+          {
+            "service": "Corporate Current Account",
+            "charge": "ZWG280"
+          },
+          {
+            "service": "Youth/Junior Savings Account",
+            "charge": "ZWG100"
+          },
+          {
+            "service": "Ordinary Savings Account",
+            "charge": "ZWG1000"
+          },
+          {
+            "service": "High Value Savings Account",
+            "charge": "ZWG3500"
+          }
+        ]
+      },
+      {
+        "title": "IN BRANCH TRANSACTIONS",
+        "items": [
+          {
+            "service": "Cash Deposit",
+            "charge": "No charge"
+          },
+          {
+            "service": "In branch cash withdrawal (slips)- Individual",
+            "charge": "3% of transaction amount"
+          },
+          {
+            "service": "In branch cash withdrawal (slips) - Corporate",
+            "charge": "3% of transaction amount"
+          },
+          {
+            "service": "Account statement (hardcopy)",
+            "charge": "ZWG7 per page"
+          },
+          {
+            "service": "Internal funds transfer (IFT)- Individual",
+            "charge": "ZWG 27"
+          },
+          {
+            "service": "Internal Funds Transfer (IFT) - Corporate",
+            "charge": "ZWG70"
+          },
+          {
+            "service": "Interbank Funds Transfer (RTGS) - Individual",
+            "charge": "1% of transaction amount, minimum ZWG9.6, maximum ZWG 68"
+          },
+          {
+            "service": "Interbank Funds Transfer (RTGS) - Corporate",
+            "charge": "1.5% of transaction amount, minimum ZWG90, maximum ZWG205"
+          }
+        ]
+      },
+      {
+        "title": "CARDS & EBANKING",
+        "items": [
+          {
+            "service": "Visa Debit Card-Initial Issue",
+            "charge": "ZWG68 classic/ZWG 98 Gold/ ZWG135 Platinum"
+          },
+          {
+            "service": "Visa Debit Card- Replacement/ Renewal",
+            "charge": "ZWG68 classic/ZWG 98 Gold/ ZWG135 Platinum"
+          },
+          {
+            "service": "Pin Re-Issue",
+            "charge": "ZWG14"
+          },
+          {
+            "service": "ATM Cash Withdrawal- ON US - Ecobank",
+            "charge": "3% of transaction amount, minimum ZWG41"
+          },
+          {
+            "service": "ATM Cash Withdrawal - OFF US - ZIMSWITCH",
+            "charge": "7% of transaction amount, minimum ZWG 68"
+          },
+          {
+            "service": "POS Purchase - ON US- Ecobank",
+            "charge": "1.5% of transaction amount, min ZWG 3.50"
+          },
+          {
+            "service": "POS Purchase - OFF US - ZIMSWITCH",
+            "charge": "1.5% of transaction amount, minimum ZWG7"
+          },
+          {
+            "service": "Ecobank Online - Internal Funds Transfer (IFT)",
+            "charge": "ZWG 27"
+          },
+          {
+            "service": "Omni Plus/Omni Lite - Internal Funds Transfer (IFT)",
+            "charge": "ZWG 27"
+          },
+          {
+            "service": "Ecobank Online - Interbank Funds Transfer (RTGS)",
+            "charge": "ZWG 68"
+          },
+          {
+            "service": "Omni Plus/Omni Lite - Interbank Funds Transfer (RTGS)",
+            "charge": "ZWG96"
+          },
+          {
+            "service": "Internet banking registration",
+            "charge": "Free"
+          }
+        ]
+      },
+      {
+        "title": "TREASURY",
+        "subsections": [
+          {
+            "title": "Call Account",
+            "items": [
+              {
+                "service": "Minimum balance",
+                "charge": "N/A"
+              }
+            ]
+          },
+          {
+            "title": "Term Deposits",
+            "items": [
+              {
+                "service": "Interest rate",
+                "charge": "Refer to Treasury"
+              },
+              {
+                "service": "Calculations & frequency of payment of interest",
+                "charge": "At maturity"
+              },
+              {
+                "service": "Minimum deposit (Individual)",
+                "charge": "ZWG500 000"
+              },
+              {
+                "service": "Minimum Deposit (Corporate)",
+                "charge": "ZWG1 000 000"
+              },
+              {
+                "service": "Withdrawal conditions",
+                "charge": "At maturity (Amounts in excess of ZWG1 000 000 - refer to Treasury department)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "GUARANTEES AND LETTERS OF CREDIT",
+        "items": [
+          {
+            "service": "Establishment",
+            "charge": "Negotiable"
+          },
+          {
+            "service": "Collection commission",
+            "charge": "On application"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "currency": "USD",
+    "metadata": {
+      "bank_name": "Ecobank Zimbabwe Limited",
+      "document_title": "Business Conditions",
+      "effective_date": "September 2024"
+    },
+    "sections": [
+      {
+        "title": "VARIOUS ACCOUNT SEGMENTS (FCA) (ACCOUNT MAINTENANCE)",
+        "category": "MONTHLY SERVICE CHARGE",
+        "items": [
+          {
+            "service": "Low Cost Current Account",
+            "charge": "USD3"
+          },
+          {
+            "service": "Individual current account (Classic)",
+            "charge": "USD5"
+          },
+          {
+            "service": "Advantage Current Account",
+            "charge": "USD 7"
+          },
+          {
+            "service": "Premier current Account",
+            "charge": "USD20"
+          },
+          {
+            "service": "Sole Trader Current Account",
+            "charge": "USD15"
+          },
+          {
+            "service": "SME Current Account",
+            "charge": "USD20"
+          },
+          {
+            "service": "Corporate Current Account",
+            "charge": "USD20"
+          },
+          {
+            "service": "Youth or junior savings account",
+            "charge": "No charge for balances USD10"
+          },
+          {
+            "service": "Ordinary Savings Account",
+            "charge": "No charge for balances USD200 and above"
+          },
+          {
+            "service": "High Value Savings Account",
+            "charge": "No charge for balances USD500 and above"
+          }
+        ]
+      },
+      {
+        "title": "IN BRANCH TRANSACTIONS",
+        "items": [
+          {
+            "service": "Cash Deposit",
+            "charge": "No charge"
+          },
+          {
+            "service": "In branch cash withdrawal (slip) - Individual",
+            "charge": "2.5% of transaction amount"
+          },
+          {
+            "service": "In branch cash withdrawal (slips) - Corporate",
+            "charge": "2.5% of transaction amount"
+          },
+          {
+            "service": "Account statement (hardcopy)",
+            "charge": "USD 0.50 per page"
+          },
+          {
+            "service": "Telegraphic Transfer (TT) - Individual",
+            "charge": "0.5% of transaction amount, minimum USD30, maximum USD250"
+          },
+          {
+            "service": "Telegraphic Transfer (TT) - Corporate",
+            "charge": "1% of transaction amount, minimum USD50, maximum USD350"
+          },
+          {
+            "service": "Swift",
+            "charge": "USD5"
+          },
+          {
+            "service": "Internal funds transfer (IFT)- Individual",
+            "charge": "USD3"
+          },
+          {
+            "service": "Internal Funds Transfer (IFT) - Corporate",
+            "charge": "USD5"
+          },
+          {
+            "service": "Interbank Funds Transfer (RTGS) - Individual",
+            "charge": "USD7"
+          },
+          {
+            "service": "Interbank Funds Transfer (RTGS) - Corporate",
+            "charge": "USD10"
+          }
+        ]
+      },
+      {
+        "title": "CARDS & eBANKING",
+        "items": [
+          {
+            "service": "Mastercard Debit Card-Initial Issue",
+            "charge": "USD5 Classic/ USD10 Gold/ USD15 Platinum"
+          },
+          {
+            "service": "Mastercard Card-Replacement/Renewal",
+            "charge": "USD5 Classic/ USD10 Gold/ USD15 Platinum"
+          },
+          {
+            "service": "Visa Prepaid Card-Initial Issue",
+            "charge": "USD5"
+          },
+          {
+            "service": "Visa Prepaid Card- Replacement/Renewal",
+            "charge": "USD5"
+          },
+          {
+            "service": "Pin Re-Issue both cards (PP &MC)",
+            "charge": "USD1"
+          },
+          {
+            "service": "ATM Cash Withdrawal- ON US - Ecobank",
+            "charge": "2.5% of transaction amount, minimun USD4"
+          },
+          {
+            "service": "ATM Cash W/drawal local OFF US-ZIMSWITCH",
+            "charge": "3% of transaction amount, minimum USD5"
+          },
+          {
+            "service": "ATM Cash W/drawal International OFF US",
+            "charge": "3.5% of transaction amount, minimum USD5"
+          },
+          {
+            "service": "POS Purchase - ON US- Ecobank",
+            "charge": "1.5% of transaction amount, minimum USD0.50"
+          },
+          {
+            "service": "POS Purchase - OFF US - ZIMSWITCH",
+            "charge": "1.5% of transaction amount, minimum USD0.50"
+          },
+          {
+            "service": "POS Purchase - International - OFF US",
+            "charge": "2.3% of transaction amount, minimum USD2"
+          },
+          {
+            "service": "Bill Payment -Individual (Mobile app)",
+            "charge": "USD1"
+          },
+          {
+            "service": "Bill Payment -Individual (Ecobank Online)",
+            "charge": "USD1"
+          },
+          {
+            "service": "Bill Payments Corporates (Omni Plus/Omni Lite)",
+            "charge": "USD2"
+          },
+          {
+            "service": "Ecobank Online Internal Funds Transfer (IFT)",
+            "charge": "USD2"
+          },
+          {
+            "service": "Omni Plus/Omni Lite Internal Funds transfer (IFT)",
+            "charge": "USD2"
+          },
+          {
+            "service": "Ecobank Online Interbank Funds transfer (RTGS)",
+            "charge": "USD5"
+          },
+          {
+            "service": "Omni Plus/Omni Lite Interbank Funds Transfer (RTGS)",
+            "charge": "USD7"
+          },
+          {
+            "service": "Internet banking registration",
+            "charge": "Free"
+          },
+          {
+            "service": "Online Purchase",
+            "charge": "2.3% of transaction amount, minimum USD2"
+          },
+          {
+            "service": "Balance Inquiry",
+            "charge": "No charge"
+          }
+        ]
+      },
+      {
+        "title": "TREASURY",
+        "subsections": [
+          {
+            "title": "Call Account",
+            "items": [
+              {
+                "service": "Minimum balance",
+                "charge": "N/A"
+              }
+            ]
+          },
+          {
+            "title": "Term Deposits",
+            "items": [
+              {
+                "service": "Interest rate",
+                "charge": "Minimum 2.5% per annum"
+              },
+              {
+                "service": "Calculations and frequency of payment of interest",
+                "charge": "At maturity"
+              },
+              {
+                "service": "Minimum deposit (Individual)",
+                "charge": "USD1 000"
+              },
+              {
+                "service": "Minimum deposit (Corporate)",
+                "charge": "USD5 000"
+              },
+              {
+                "service": "Withdrawal conditions",
+                "charge": "Maturity (Amounts in excess of USD100 000- refer to Treasury department)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "GUARANTEES AND LETTERS OF CREDIT",
+        "items": [
+          {
+            "service": "Establishment",
+            "charge": "Negotiable"
+          },
+          {
+            "service": "Collection commission",
+            "charge": "On application"
+          }
+        ]
+      }
+    ]
+  }
+]

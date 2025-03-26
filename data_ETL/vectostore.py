@@ -7,10 +7,10 @@ from langchain_core.documents import Document
 from dotenv import load_dotenv
 
 docs: list[str] = [
-    "extract_1.txt",
-    "extract_2.txt",
-    "extract_3.txt",
-    "extract_4.txt"
+    "data_ETL\CABS.txt",
+    "data_ETL\CBZ.txt",
+    "data_ETL\ecobank.txt",
+    "data_ETL\POSB.txt"
 ]
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 load_dotenv()
@@ -25,8 +25,8 @@ def ingest_docs(embeddings: Any):
         print(f"loaded {len(raw_docs)} documents")
 
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=3600, 
-        chunk_overlap=400,
+        chunk_size=6000, 
+        chunk_overlap=0,
         separators=["\n\n", "\n", "  ", " ", ""],
         keep_separator=True
     )
