@@ -49,11 +49,11 @@ route_prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-question_router = route_prompt | structured_llm_router
+query_router = route_prompt | structured_llm_router
 
 if __name__ == "__main__":
     question = "How much does CBZ charge individuals for a Telegraphic Transfer"
-    res = question_router.invoke(
+    res = query_router.invoke(
         {
             "messages": [
             ],

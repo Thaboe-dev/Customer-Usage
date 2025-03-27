@@ -91,7 +91,7 @@ multi_step_prompt = ChatPromptTemplate.from_messages(
     [
         ("system", multi_step_template),
         MessagesPlaceholder(variable_name="messages"),
-        ("human", "Question: {question} \n\n Context: {context}"),
+        ("human", "Question: {question}"),
     ]
 )
 
@@ -115,10 +115,21 @@ def comparisons(prompt_A: str, prompt_B: str) -> list[Document]:
     return final_response
 
 tools = [comparisons]
-
+llm_with_tools = llm.bind_tools(tools)
 
 rag_chain = prompt | llm | StrOutputParser()
-multi_step_rag_chain = multi_step_prompt | llm.bind_tools(tools) | StrOutputParser()
+multi_step_rag_chain = multi_step_prompt | llm_with_tools
 
 if __name__ == "__main__":
-    pass
+    res = multi_step_rag_chain.invoke(
+        {
+            "messages": [],
+            "question": "If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank"
+        }
+    )
+
+    print(res.additional_kwargs['tool_calls'])
+
+    # res = llm.bind_tools(tools).invoke("If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank")
+
+    # print(res)

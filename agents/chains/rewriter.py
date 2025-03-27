@@ -12,11 +12,13 @@ system = """
 
     "If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank"
 
-    You should rewrite it into two distinct prompts:
+    You should rewrite it into two distinct prompts labelled prompt_A and prompt_B, and retain the original prompt:
 
-    "How much does CBZ charge for a Telegraphic Transfer?"
+    Original Prompt: "If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank"
 
-    "How much does Ecobank charge for a Telegraphic Transfer?"
+    prompt_A: "How much does CBZ charge for a Telegraphic Transfer?"
+
+    prompt_B: "How much does Ecobank charge for a Telegraphic Transfer?"
 
     Make sure your rewritten prompts are clear, concise, and retain the original context (the service type and each bank's name). This breakdown will allow downstream retrieval modules to fetch accurate, entity-specific information for multi-step reasoning.
 """

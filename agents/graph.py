@@ -11,10 +11,13 @@ from langchain_core.documents import Document
 from langchain_core.messages import BaseMessage, AIMessage, HumanMessage, RemoveMessage
 from langgraph.graph.message import add_messages
 from langgraph.checkpoint.memory import MemorySaver
+from langgraph.prebuilt import ToolNode
 
 # local imports 
 from chains.retriever_qn import formulate_retriever_qn
-from chains.response import rag_chain
+from chains.response import rag_chain, multi_step_rag_chain, tools, llm_with_tools
+from chains.rewriter import query_rewriter
+from chains.router import query_router
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -48,10 +51,49 @@ class GraphState(TypedDict):
     documents: List[str]
     messages: Annotated[Sequence[BaseMessage], add_messages]
 
+def router(state: GraphState):
+    """query router"""
+
+    question = state["question"]
+    messages = state["messages"]
+
+    print("---ROUTE QUESTION---")
+    res = query_router.invoke(
+        {
+            "messages": messages,
+            "question": question
+        }
+    )
+
+    if res.datasource == "basic_retrieval":
+        print("---ROUTE QUESTION TO BASIC---")
+        return "basic"
+    if res.datasource == "multi_step_retrieval":
+        print("---ROUTE QUESTION TO MULTI STEP---")
+        return "multi_step"
+    
+def rewriter(state: GraphState):
+    """rewrites prompts for the multistep retrieval process"""
+
+    question = state["question"]
+    messages = state["messages"]
+
+    print("-----INITIATING MULTI-STEP RETRIEVAL-----")
+    print("---REWRITING THE QUERY---")
+    res = query_rewriter.invoke(
+        {
+            "messages": messages,
+            "question": question
+        }
+    )
+
+    return{ "question": res.content }
+
 
 def formulate_qn(state: GraphState):
     """history aware retrieval"""
 
+    print("-----INITIATING BASIC RETRIEVAL-----")
     question = state["question"]
     messages = state["messages"]
 
@@ -88,7 +130,7 @@ def generate(state: GraphState):
     Returns:
         state (dict): New key added to state, generation, that contains LLM generation
     """
-    print("---GENERATE---")
+    print("---GENERATE(BASIC RETRIEVAL)---")
     question = state["question"]
     documents = state["documents"]
     messages = state["messages"]
@@ -106,6 +148,34 @@ def generate(state: GraphState):
         "question": question, 
         "generation": generation,
         "messages": [HumanMessage(content=question), AIMessage(content=generation)]
+    }
+
+def generate_2(state: GraphState):
+    """
+    Generate answer from the vector store
+
+    Args:
+        state (dict): The current graph state
+
+    Returns:
+        state (dict): New key added to state, generation, that contains LLM generation
+    """
+    print("---GENERATE(MULTI-STEP RETRIEVAL)---")
+    question = state["question"]
+    messages = state["messages"]
+
+    # RAG generation
+    # generation = multi_step_rag_chain.invoke(
+    #     {
+    #         "messages": messages,
+    #         "question": question
+    #     }
+    # )
+    generation = llm_with_tools.invoke(question)
+    return {
+        "question": question, 
+        "generation": generation,
+        "messages": [HumanMessage(content=question), generation]
     }
 
 def summarize_conversation(state: GraphState):
@@ -133,28 +203,56 @@ def summarize_conversation(state: GraphState):
         delete_messages = [RemoveMessage(id=m.id) for m in state["messages"][:-2]]
         return {"summary": response.content, "messages": delete_messages}
     
+def should_continue(state: GraphState):
+    messages = state["messages"]
+    last_message = messages[-1]
+    if last_message.additional_kwargs['tool_calls']:
+        return "tools"
+    return END
+    
 
 # -------------------------COMPILE THE GRAPH--------------------------------------------
 workflow = StateGraph(GraphState)
+tool_node = ToolNode(tools)
 
 # nodes
 workflow.add_node("retrieve", retrieve)
 workflow.add_node("generate", generate)
 workflow.add_node("history_aware_retrieval", formulate_qn)
 workflow.add_node("summarize", summarize_conversation)
+workflow.add_node("rewriter", rewriter)
+workflow.add_node("response", generate_2)
+workflow.add_node("tools", tool_node)
 
 # Build and Compile
 workflow.add_edge(
     START,
     "summarize"
 )
-workflow.add_edge(
+workflow.add_conditional_edges(
     "summarize",
-    "history_aware_retrieval"
+    router,
+    {
+        "basic" : "history_aware_retrieval",
+        "multi_step" : "rewriter"
+    }
 )
 workflow.add_edge(
     "history_aware_retrieval",
     "retrieve"
+)
+workflow.add_edge(
+    "rewriter",
+    "response"
+)
+workflow.add_conditional_edges(
+    "response", 
+    should_continue, 
+    ["tools", END]
+)
+workflow.add_edge(
+    "tools",
+    "response"
 )
 workflow.add_edge(
     "retrieve",
