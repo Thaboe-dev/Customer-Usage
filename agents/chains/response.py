@@ -1,9 +1,20 @@
 # performs the RAG cycle
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.tools import tool
+from langchain_core.documents import Document
+from langchain_pinecone import PineconeVectorStore
+from langchain_openai import OpenAIEmbeddings
 from llm_init import llm
 from dotenv import load_dotenv
 
+# initialize vectorstore
+embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+store = PineconeVectorStore(
+    embedding=embeddings,
+    index_name = "pricing-engine"
+)
+retriever = store.as_retriever()
 
 load_dotenv()
 
@@ -46,7 +57,68 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
+# ------------------RESPONSE FOR MULTI STEP RETRIEVAL------------------------
+
+multi_step_template = """
+    You are an AI-powered financial assistant tasked with synthesizing and comparing banking product data retrieved in separate steps. You receive entity-specific charge information—for example, individual details on Telegraphic Transfer fees from each bank—and your role is to integrate these details, perform a direct comparison, and provide a clear, final recommendation.
+
+    Guidelines:
+
+    Data Accuracy: Use the provided charge information as the most up-to-date and reliable data source.
+
+    Clarity and Conciseness: Clearly compare the fee details for each bank, focusing on both ZWG and USD charges where applicable.
+
+    Assumption Transparency: Briefly disclose any assumptions or interpretations made during the comparison process.
+
+    Response Process:
+
+    Integrate Results: Start by summarizing the individual charge details received for each bank.
+
+    Compare Options: Directly compare the fees for the specified service (e.g., Telegraphic Transfer) across the banks.
+
+    Final Recommendation: Provide a final recommendation that ranks the banks based on which one offers the cheapest and most favorable service for the user’s needs.
+
+    Communication Style:
+
+    Professional and Friendly: Maintain a tone that is both professional and approachable.
+
+    Empathetic: Recognize the user's need for clear, actionable financial guidance.
+
+    Engaging: Present a concise final answer that invites follow-up questions if further clarification is needed.
+"""
+
+multi_step_prompt = ChatPromptTemplate.from_messages(
+    [
+        ("system", multi_step_template),
+        MessagesPlaceholder(variable_name="messages"),
+        ("human", "Question: {question} \n\n Context: {context}"),
+    ]
+)
+
+# tools
+@tool
+def comparisons(prompt_A: str, prompt_B: str) -> list[Document]:
+    """
+        Performs a two step retrieval process to handle product comparisons between two banks. Takes two prompts and invokes the retriever separately on these two prompts. Retrieves the product details for each bank separately and then consolidates the results.
+
+        Args: 
+            prompt_A: first retrieval prompt
+            prompt_B: second retrieval prompt
+        
+        Returns:
+            list[Document]: A list of retrieved documents
+    """
+    res1 = retriever.invoke(prompt_A)
+    res_2 = retriever.invoke(prompt_B)
+
+    final_response = res1 + res_2
+    return final_response
+
+tools = [comparisons]
+
+
 rag_chain = prompt | llm | StrOutputParser()
+multi_step_rag_chain = multi_step_prompt | llm.bind_tools(tools) | StrOutputParser()
 
 if __name__ == "__main__":
     pass

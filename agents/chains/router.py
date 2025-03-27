@@ -52,7 +52,7 @@ route_prompt = ChatPromptTemplate.from_messages(
 question_router = route_prompt | structured_llm_router
 
 if __name__ == "__main__":
-    question = "If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank"
+    question = "How much does CBZ charge individuals for a Telegraphic Transfer"
     res = question_router.invoke(
         {
             "messages": [
