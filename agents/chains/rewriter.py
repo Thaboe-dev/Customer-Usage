@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage
-from llm_init import llm
+from agents.llm_init import llm
 
 from dotenv import load_dotenv
 

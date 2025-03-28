@@ -2,7 +2,7 @@ from langchain.chains.history_aware_retriever import create_history_aware_retrie
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage
 from langchain_core.output_parsers import StrOutputParser
-from llm_init import llm
+from agents.llm_init import llm
 # from llm_init import llm
 
 from dotenv import load_dotenv

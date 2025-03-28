@@ -5,7 +5,7 @@ from langchain_core.tools import tool
 from langchain_core.documents import Document
 from langchain_pinecone import PineconeVectorStore
 from langchain_openai import OpenAIEmbeddings
-from llm_init import llm
+from agents.llm_init import llm
 from dotenv import load_dotenv
 
 # initialize vectorstore
