@@ -11,7 +11,7 @@ from langchain_core.documents import Document
 from langchain_core.messages import BaseMessage, AIMessage, HumanMessage, RemoveMessage
 from langgraph.graph.message import add_messages
 from langgraph.checkpoint.memory import MemorySaver
-from langgraph.prebuilt import ToolNode
+from langgraph.prebuilt import ToolNode, tools_condition
 
 # local imports 
 from chains.retriever_qn import formulate_retriever_qn
@@ -171,10 +171,15 @@ def generate_2(state: GraphState):
     #         "question": question
     #     }
     # )
-    generation = llm_with_tools.invoke(question)
+    generation = multi_step_rag_chain.invoke(
+        {
+            "messages": messages,
+            "question": question
+        }
+    )
     return {
         "question": question, 
-        "generation": generation,
+        "generation": generation.content,
         "messages": [HumanMessage(content=question), generation]
     }
 
@@ -203,12 +208,12 @@ def summarize_conversation(state: GraphState):
         delete_messages = [RemoveMessage(id=m.id) for m in state["messages"][:-2]]
         return {"summary": response.content, "messages": delete_messages}
     
-def should_continue(state: GraphState):
-    messages = state["messages"]
-    last_message = messages[-1]
-    if last_message.additional_kwargs['tool_calls']:
-        return "tools"
-    return END
+# def should_continue(state: GraphState):
+#     messages = state["messages"]
+#     last_message = messages[-1]
+#     if last_message.tool_calls:
+#         return "tools"
+#     return END
     
 
 # -------------------------COMPILE THE GRAPH--------------------------------------------
@@ -247,8 +252,7 @@ workflow.add_edge(
 )
 workflow.add_conditional_edges(
     "response", 
-    should_continue, 
-    ["tools", END]
+    tools_condition
 )
 workflow.add_edge(
     "tools",

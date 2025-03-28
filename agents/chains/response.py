@@ -128,7 +128,7 @@ if __name__ == "__main__":
         }
     )
 
-    print(res.additional_kwargs['tool_calls'])
+    print(res)
 
     # res = llm.bind_tools(tools).invoke("If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank")
 
