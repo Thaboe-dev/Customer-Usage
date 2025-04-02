@@ -114,6 +114,28 @@ def comparisons(prompt_A: str, prompt_B: str) -> list[Document]:
     final_response = res1 + res_2
     return final_response
 
+@tool
+def average(val_1: str, val_2: str) -> str:
+    """
+    takes two numbers and calculates the average of the two values
+
+    Args:
+        val_1: first value
+        val_2: second value
+
+    Returns:
+        str: the result of the calculation
+    """
+
+    # casting string values from model to integers
+    val_1 = int(val_1)
+    val_2 = int(val_2)
+
+    # calculating the average
+    ave = (val_1 + val_2) / 2
+
+    return str(ave)
+
 tools = [comparisons]
 llm_with_tools = llm.bind_tools(tools)
 
