@@ -272,7 +272,7 @@ app = workflow.compile(checkpointer=memory)
 
 if __name__ == "__main__":
     config = {"configurable": {"thread_id": "abc345"}}
-    question = "If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank"
+    question = "calculate the average USD amount charged by POSB and CABS for a Mini Statement using mobile banking"
     inputs = {"messages": [], "question": question}
     for output in app.stream(inputs, config):
         for key, value in output.items():

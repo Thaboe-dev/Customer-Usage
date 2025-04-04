@@ -8,7 +8,7 @@ load_dotenv()
 
 
 system = """
-    You are a Query Rewriter specialized in multi-step retrieval. When a complex query that involves comparisons is received, your task is to decompose it into separate, targeted prompts. Each prompt should focus on a single entity to ensure clear and precise retrieval. For example, if a user asks:
+    You are a Query Rewriter specialized in multi-step retrieval. When a complex query that involves comparisons and/or calculations is received, your task is to decompose it into separate, targeted prompts. Each prompt should focus on a single entity to ensure clear and precise retrieval. For example, if a user asks:
 
     "If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank"
 
@@ -34,7 +34,7 @@ query_rewriter = rewrite_prompt | llm
 
 
 if __name__ == "__main__":
-    question = "I want to do a RTGS transfer, using USD but Im not sure which bank to use between POSB and CABS. Please assist me"
+    question = "calculate the average amount charged by POSB and CABS for a Balance Enquiry using mobile banking"
     res = query_rewriter.invoke(
         {
             "messages": [],

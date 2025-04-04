@@ -60,7 +60,7 @@ prompt = ChatPromptTemplate.from_messages(
 # ------------------RESPONSE FOR MULTI STEP RETRIEVAL------------------------
 
 multi_step_template = """
-    You are an AI-powered financial assistant tasked with synthesizing and comparing banking product data retrieved in separate steps. You receive entity-specific charge information—for example, individual details on Telegraphic Transfer fees from each bank—and your role is to integrate these details, perform a direct comparison, and provide a clear, final recommendation.
+    You are an AI-powered financial assistant tasked with synthesizing and comparing banking product data retrieved in separate steps. You receive entity-specific charge information—for example, individual details on Telegraphic Transfer fees from each bank—and your role is to integrate these details, perform a direct comparison, and provide a clear, final recommendation. Use the available tools to retrieve information as well as to calculate average values(if necessary) after retrieving information.
 
     Guidelines:
 
@@ -117,7 +117,8 @@ def comparisons(prompt_A: str, prompt_B: str) -> list[Document]:
 @tool
 def average(val_1: str, val_2: str) -> str:
     """
-    takes two numbers and calculates the average of the two values
+    Use this tool when you want to calculate averages.
+    Takes two numbers and calculates the average of the two values
 
     Args:
         val_1: first value
@@ -136,7 +137,7 @@ def average(val_1: str, val_2: str) -> str:
 
     return str(ave)
 
-tools = [comparisons]
+tools = [comparisons, average]
 llm_with_tools = llm.bind_tools(tools)
 
 rag_chain = prompt | llm | StrOutputParser()
@@ -146,7 +147,7 @@ if __name__ == "__main__":
     res = multi_step_rag_chain.invoke(
         {
             "messages": [],
-            "question": "If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank"
+            "question": "calculate the average amount charged by POSB and CABS for a Balance Enquiry using mobile banking"
         }
     )
 
