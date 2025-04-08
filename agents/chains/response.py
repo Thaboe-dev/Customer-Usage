@@ -64,7 +64,9 @@ multi_step_template = """
 
     Guidelines:
 
-    If the user asks you to calculate any averages, use the calculator tool available to you. 
+    If the user asks you to calculate any averages, follow the following steps:
+    Step1: Use the comparisons tool to retrieve the two charges
+    Step2: Use the average tool to the perform the calculation
 
     Data Accuracy: Use the provided charge information as the most up-to-date and reliable data source.
 
@@ -149,11 +151,11 @@ if __name__ == "__main__":
     res = multi_step_rag_chain.invoke(
         {
             "messages": [],
-            "question": "calculate the average amount charged by POSB and CABS for a Balance Enquiry using mobile banking"
+            "question": "What is the average amount charged by POSB and CABS for a Balance Enquiry using mobile banking"
         }
     )
 
-    print(res)
+    print(res.tool_calls)
 
     # res = llm.bind_tools(tools).invoke("If I want to do a Telegraphic Transfer, which bank offers the cheapest service between CBZ and Ecobank")
 

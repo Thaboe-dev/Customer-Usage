@@ -274,16 +274,22 @@ if __name__ == "__main__":
     config = {"configurable": {"thread_id": "abc345"}}
     question = "calculate the average USD amount charged by POSB and CABS for a Mini Statement using mobile banking"
     inputs = {"messages": [], "question": question}
-    for output in app.stream(inputs, config):
-        for key, value in output.items():
-            # Node
-            pprint(f"Node '{key}':")
-            # Optional: print full state at each node
-            # pprint.pprint(value["keys"], indent=2, width=80, depth=None)
-        pprint("\n---\n")
+    # for output in app.stream(inputs, config):
+    #     for key, value in output.items():
+    #         # Node
+    #         pprint(f"Node '{key}':")
+    #         # Optional: print full state at each node
+    #         pprint(value["keys"], indent=2, width=80, depth=None)
+    #     pprint("\n---\n")
 
-    # Final generation
-    res = value["generation"]
-    print(res)
+    # # Final generation
+    # res = value["generation"]
+    # print(res)
 
     # print(app.get_graph().draw_mermaid())
+
+    for chunk in app.stream(
+    inputs, config, stream_mode="values"
+    ):
+        # chunk["messages"][-1].pretty_print()
+        print(chunk['messages'])
