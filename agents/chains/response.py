@@ -64,6 +64,8 @@ multi_step_template = """
 
     Guidelines:
 
+    If the user asks you to calculate any averages, use the calculator tool available to you. 
+
     Data Accuracy: Use the provided charge information as the most up-to-date and reliable data source.
 
     Clarity and Conciseness: Clearly compare the fee details for each bank, focusing on both ZWG and USD charges where applicable.
