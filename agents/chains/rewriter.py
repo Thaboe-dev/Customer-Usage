@@ -34,7 +34,7 @@ query_rewriter = rewrite_prompt | llm
 
 
 if __name__ == "__main__":
-    question = "calculate the average amount charged by POSB and CABS for a Balance Enquiry using mobile banking"
+    question = "calculate the average amount charged by POSB and CABS for a Mini Statement using mobile banking"
     res = query_rewriter.invoke(
         {
             "messages": [],
