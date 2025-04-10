@@ -1,0 +1,8 @@
+# docker-compose.yml
+services:
+  app:
+    image: customeragent
+    env_file:
+      - .env
+    ports:
+      - "8080:80"
